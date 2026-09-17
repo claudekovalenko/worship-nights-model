@@ -73,7 +73,7 @@ Great honor for the Lord and great obedience to Him. These are not separate from
 
 Every night has **one clear leader**. Not a committee, not a vibe. Someone is carrying the room, and they are stewarding it rather than just running a program.
 
-At the start, that will be the person carrying the vision, doing the stewarding themselves and learning it as they go.
+At the start, that is Ivan, stewarding the room and modeling what this looks like. It is not meant to stay there.
 
 ### Growing in two things at once
 
