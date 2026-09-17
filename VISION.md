@@ -6,13 +6,13 @@
 
 ## The short version
 
-**We meet with God, with great reverence.**
+**1. Reverence** — We meet with God, and the room knows who it is standing in front of.
 
-**The word is held high.**
+**2. The Word** — Scripture is held high. Everything in the room is measured by it.
 
-**One leader stewards the room** — sensitive to the promptings of the Spirit, grounded in Scripture.
+**3. One Leader** — Sensitive to the promptings of the Spirit, grounded in Scripture.
 
-**When it's over, we don't forget.** We store it, we obey it, and we go.
+**4. Go and Do** — When it's over we don't forget. We store it, we obey it, and we go.
 
 ---
 
