@@ -10,7 +10,7 @@
 
 **2. The Word** — Scripture is held high. Everything in the room is measured by it.
 
-**3. One Leader** — Sensitive to the promptings of the Spirit, grounded in Scripture.
+**3. Stewardship** — Leaders who steward the room and its culture well, sensitive to the Spirit and grounded in Scripture.
 
 **4. Go and Do** — When it's over we don't forget. We store it, we obey it, and we go.
 
@@ -53,15 +53,15 @@ Great honor for the Lord and great obedience to Him. These are not separate from
 
 ## 4. Leadership
 
-Every night has **one clear leader**. Not a committee, not a vibe. Someone is responsible for the room.
+The room needs **a leader, or leaders, who steward the culture in it well**. The number is not the point. What matters is that leadership is clear, that someone is genuinely carrying responsibility for the room, and that they are stewarding it rather than just running a program.
 
-That leader is growing in two things at once:
+Whoever is leading is growing in two things at once:
 
 1. **Sensitivity to the promptings of the Lord.** Learning to notice what the Spirit is doing, to follow it, and to shift when He shifts.
 2. **Scriptural guardrails.** Knowing the word well enough that it acts as the rails the night runs on. Sensitivity without Scripture drifts; Scripture without sensitivity goes dry. We want both.
 
 ### Stewarding the room
-The leader stewards the room well. This includes:
+Stewarding the room well includes:
 
 - Setting the tone of reverence from the start.
 - Keeping the night centered on the Lord, not on any person or moment.
@@ -104,7 +104,7 @@ This is a starting frame, not a script. The leader follows the Lord.
 | Straight in, straight out, forget everything | Carry reverence out, store what was sown, do it |
 | Anything goes in the name of freedom | Discernment, order, and scriptural guardrails |
 | Shut down anything unfamiliar | Test it. Keep what is of the Lord |
-| A leaderless room | One clear leader who stewards the room |
+| A room nobody is stewarding | Leaders who steward the room and its culture |
 | Mechanical, robotic love | Real affection for God and one another |
 
 ## 7. Why "hear and obey"
