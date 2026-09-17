@@ -1,68 +1,135 @@
-# Worship Nights
+# Worship Nights: Vision
 
-*We gather every week to meet with God.*
-
----
-
-## Why we gather
-
-Worship Night is a weekly night given over to the presence of God. That's the whole thing. We come to be with the Lord, to draw near to Him with reverence, to hear what He is saying, and then to go and do it.
-
-It isn't an event. It isn't a concert or a social night. People might get all kinds of things out of it, but none of those things are why we come. We come because God is here and we want to be with Him.
-
-And we believe that if people really meet with God, week after week, it changes them. They start to pray with their whole hearts. They carry His presence out of the room. They learn to hear Him and obey Him. Their lives look different. That's the culture we are after: not a night people attend, but a people who walk with God.
-
-## What matters most
-
-**Reverence.** We are coming before a holy God. The room carries weight. It shapes the way we walk in, the way we sing, the way we speak, and the way we leave. Reverence isn't stiffness. It's what love looks like when it knows who it's standing in front of.
-
-**The word.** Scripture is the ground we stand on. What happens in the room is measured against it. When someone meets with God here, it lines up with what God has already said. There will usually be a short word from the Bible during the night, so that what people hear from the Lord has something solid to take root in.
-
-**A safe room.** People need to be able to come and meet with God without fear. That means the room is cared for. Nothing is allowed to run wild or pull people's eyes off the Lord. People can open up because someone is watching over them.
-
-**One clear leader.** Every night, one person is responsible for the room. That person is growing in two things at once: sensitivity to what the Spirit is doing, and a deep enough grip on Scripture that the word acts as the rails the night runs on. Sensitivity without Scripture drifts. Scripture without sensitivity goes dry. We want both.
-
-The leader's hardest job is discernment. People express things in all kinds of ways, and some of it can get strange. The answer is not to shut everything down, and it's not to let everything go. It's to test it: Is this drawing people to Jesus? Is it in order? Does it match the word? What is of the Lord stays. What isn't gets gently redirected, without anyone being shamed.
-
-**Real love.** Deep love for the Lord, and out of that, deep and honest affection for one another. Not mechanical. Not polite. Real.
-
-## How a night goes
-
-This is a frame, not a script. The leader follows the Lord.
-
-**Before.** The leader and team get their own hearts ready. They pray. They're in the word. The room is set up so nothing distracts.
-
-**In the room.** We enter with reverence and set the tone early: we are here to meet with God. We worship, and we don't rush. We pray, wholeheartedly, for the things God has put on people's hearts, and for others as He leads. There's a short word from Scripture. And there's space to hear, real time for people to listen to the Lord and settle what He is saying to them. The whole way through, the leader is watching, discerning, and keeping the room centered on Him.
-
-**After.** This part matters as much as everything before it.
-
-When the night ends, don't jump straight into conversation. You have just been with the living God. Carry that out of the room with you. Don't shake it off with chatter.
-
-Jesus talked about seed that fell on the path and was snatched by the birds before it could take root. A powerful worship night where everyone walks out and forgets everything is exactly that. So we store what was sown. Write it down. Journal what the Lord said. Treasure it.
-
-Then obey it. If God showed you something, and it's grounded in the word, go do it now, while it's fresh. Obedience is how the seed takes root. Be a doer, not only a hearer.
-
-One of the best things we can do is go straight from worship into evangelism. A heart that has just been in God's presence is ready to share Him. If you need to hang back and journal for a few minutes first, do that. Then go.
-
-## The culture we are building
-
-We are not building a night where people enjoy the Lord for a while and then go home unchanged. We are building a people who say: I met with God, I heard Him, and I am going to do what He said.
-
-We are not building a place where someone senses something and shrugs it off as weird. We are building a place where they take it seriously, hold it up to Scripture, and act on what lines up. Maybe it was fully from God. Maybe it was a first impression that will get sharper over time. Either way, a sense that is tested and obeyed grows. A sense that is dismissed never gets the chance.
-
-We are not building a room where anything goes, and we are not building a room where anything unfamiliar gets shut down. We are building a room with one leader who discerns, guardrails from the word, and freedom inside them.
-
-The fruit we expect is simple: people who know God's presence, who pray wholeheartedly, who know the word, who obey what they hear, who love each other for real, and who go out and share Jesus with prepared hearts.
-
-## Still being worked out
-
-This is the first version. It will be refined as we go. A few things we are still figuring out:
-
-- What carrying reverence out of the room actually looks like in practice.
-- How to make journaling and going out real options after the night, and not afterthoughts.
-- How to raise up new leaders in discernment and stewarding the room.
-- How to keep this from slowly turning back into just an event.
+*A weekly night centered on the presence of God, where people meet with the Lord, hear from Him, and go out and obey.*
 
 ---
 
-*The short version: We meet with God, with great reverence. The word holds it all together. One leader stewards the room. And when it's over, we don't forget. We store it, we obey it, and we go.*
+## The short version
+
+**We meet with God, with great reverence.**
+
+**The word is held high.**
+
+**One leader stewards the room** — sensitive to the promptings of the Spirit, grounded in Scripture.
+
+**When it's over, we don't forget.** We store it, we obey it, and we go.
+
+---
+
+## 1. What this is
+
+Worship Night is a regular, weekly gathering whose whole point is the presence of God. We come to meet with the Lord. Everything else, the music, the prayer, the word, the leadership, exists to serve that one thing.
+
+It is not an event. It is not a concert, a social night, or a place to find a spouse. It is a set-apart time to draw near to God with reverence, hear from Him through His word and His Spirit, and then go and do what He says.
+
+Over time, this is meant to shape a culture: people who pray wholeheartedly for the things God has put on their hearts, who carry reverence out of the room, and whose lives actually change because they met with God and obeyed Him.
+
+## 2. What we are building toward
+
+**People who meet with God.** Not a vague experience, but a real encounter that is grounded in Scripture and lines up with the word.
+
+**People who pray with their whole heart.** For the targets on their hearts, for others (intercession has a place), but first and foremost simply to be with the Lord.
+
+**People who hear and obey.** A worship night should not end with "that was amazing" and nothing else. It should end with "I heard, and now I am going to go do that."
+
+**People who love.** Deep love for the Lord, and as a result, deep and real affection for one another. Not mechanical, not robotic, but genuine.
+
+## 3. Core values
+
+### Reverence
+We come before a holy God. The room carries weight and honor. Reverence shapes how we enter, how we worship, how we speak, and how we leave.
+
+### The word held high
+Scripture is central, not decorative. What happens in the room is measured against the word. Encounters with God are scripturally grounded, scripturally based, and in line with what God has already said. A short word from Scripture is a normal part of the night.
+
+### A safe space
+People need to be able to come and meet with the Lord without fear. Safe means the room is stewarded, the leader is present and discerning, and nothing is allowed to run wild in a way that pulls people away from the Lord or harms them.
+
+### Presence over production
+Excellence in music and logistics serves the night, but the goal is never a good set. The goal is God's presence and people meeting Him.
+
+### Honor and obedience
+Great honor for the Lord and great obedience to Him. These are not separate from love; they are how love looks.
+
+## 4. Leadership
+
+Every night has **one clear leader**. Not a committee, not a vibe. Someone is responsible for the room.
+
+That leader is growing in two things at once:
+
+1. **Sensitivity to the promptings of the Lord.** Learning to notice what the Spirit is doing, to follow it, and to shift when He shifts.
+2. **Scriptural guardrails.** Knowing the word well enough that it acts as the rails the night runs on. Sensitivity without Scripture drifts; Scripture without sensitivity goes dry. We want both.
+
+### Stewarding the room
+The leader stewards the room well. This includes:
+
+- Setting the tone of reverence from the start.
+- Keeping the night centered on the Lord, not on any person or moment.
+- **Discerning what is of the Lord and what is not.** People express things in all kinds of ways, and some of it can get strange or out of hand. The leader's job is not to shut everything down or to let everything run, but to discern. Test it against Scripture. Is it drawing people to Jesus? Is it in order? Is it producing fruit? (1 John 4:1, 1 Corinthians 14:26-33, 40)
+- Gently redirecting or stopping something that is not of the Lord, without shaming anyone.
+- Protecting the safe space so that people can keep meeting with God.
+
+### A word from Scripture
+It is good to have a word during the night. Short, clear, from the Bible. It anchors the encounter in the word and gives people something to take and put into practice.
+
+## 5. The shape of a night
+
+This is a starting frame, not a script. The leader follows the Lord.
+
+**Before**
+- Leader and team prepare their own hearts. Pray. Be in the word.
+- Set the room for reverence. Minimize distraction.
+
+**During**
+- Enter with reverence. Set the tone early: we are here to meet with God.
+- Worship. Give room for the Lord to move. Don't rush.
+- Pray. Wholehearted prayer, for the things on people's hearts, and intercession where the Lord leads.
+- The word. A short scriptural anchor.
+- Space to hear. Time for people to listen to the Lord, respond, and settle what He is saying to them.
+- The leader discerns throughout and stewards the room.
+
+**After (this part matters as much as the rest)**
+- **Do not jump straight into conversation.** After a time of holy reverence, carry that reverence out of the room. You have just engaged with the living God. Don't immediately shake it off with chatter.
+- **Store what was sown.** Jesus said the seed sown on the path is snatched away by the birds before it can take root (Matthew 13:4, 19). An awesome worship night that goes straight in and straight out, where everyone forgets everything, is that path. We refuse that. Journal it. Write down what the Lord said. Treasure it (Luke 2:19).
+- **Obey right away.** If the Lord showed you something, scripturally grounded, go do it. Now, not later. Obedience while the encounter is fresh is how it takes root. "Be doers of the word, and not hearers only" (James 1:22).
+- **Go straight out.** A powerful option: worship night, then straight into evangelism. Share with a heart that has just been prepared in God's presence. If you need to hang back and journal first, do that, then go.
+
+## 6. The culture we want, and the culture we refuse
+
+| We refuse | We are building |
+|---|---|
+| Worship night as an event you attend | Worship night as a meeting with God |
+| Enjoy the Lord for a while, then life never changes | I met with God, I heard Him, I am going to obey |
+| "Oh weird, I had a sense," and nothing happens | Hear, test it against the word, then act |
+| Straight in, straight out, forget everything | Carry reverence out, store what was sown, do it |
+| Anything goes in the name of freedom | Discernment, order, and scriptural guardrails |
+| Shut down anything unfamiliar | Test it. Keep what is of the Lord |
+| A leaderless room | One clear leader who stewards the room |
+| Mechanical, robotic love | Real affection for God and one another |
+
+## 7. Why "hear and obey"
+
+The center of this culture is simple: hear the Lord, then obey Him.
+
+Maybe what someone senses is truly from God. Maybe it is a first impression that will get refined over time. Either way, the posture is the same: take it seriously, hold it up to Scripture, and act on what lines up. A sense that gets acted on in obedience, and tested along the way, will get sharper. A sense that gets dismissed as "weird" never gets the chance.
+
+Obedience is the proof that the encounter was real. Not the feeling, not the moment, but what you do afterward.
+
+## 8. The fruit we expect
+
+- People who know God's presence and know how to draw near.
+- People who pray wholeheartedly.
+- People who know the word and measure everything by it.
+- Leaders who are sensitive to the Spirit and grounded in Scripture.
+- People whose lives change, because they obey what they hear.
+- A community marked by reverence, honor, and real love.
+- A steady stream of people going out to share Jesus with prepared hearts.
+
+## 9. Things still being worked out
+
+This is the first iteration. It is meant to be refined as we go. Some things to keep working on:
+
+- What exactly "carrying reverence" looks like in the minutes after the night ends. Silence? A short quiet period? A guided send-out?
+- How to structure the after-time so that journaling and evangelism are real options and not afterthoughts.
+- How new leaders are trained in discernment and stewarding the room.
+- How to keep the night from drifting back into being just an event.
