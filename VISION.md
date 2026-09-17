@@ -2,6 +2,8 @@
 
 *A weekly night centered on the presence of God, where people meet with the Lord, hear from Him, and go out and obey.*
 
+Ivan is leading and modeling these nights to start. It is meant to be handed on as others grow into it.
+
 ---
 
 ## What we steward
