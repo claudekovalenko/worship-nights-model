@@ -10,7 +10,7 @@
 
 **2. The Word** — Scripture is held high. Everything in the room is measured by it.
 
-**3. Stewardship** — Leaders who steward the room and its culture well, sensitive to the Spirit and grounded in Scripture.
+**3. Stewardship** — One clear leader stewarding the room, growing others into it over time.
 
 **4. Go and Do** — When it's over we don't forget. We store it, we obey it, and we go.
 
@@ -26,11 +26,11 @@
 | Straight in, straight out, forget everything | Carry reverence out, store what was sown, do it |
 | Anything goes in the name of freedom | Discernment, order, and scriptural guardrails |
 | Shut down anything unfamiliar | Test it. Keep what is of the Lord |
-| A room nobody is stewarding | Leaders who steward the room and its culture |
+| A room nobody is stewarding | One clear leader stewarding the room |
+| A room that depends on one person forever | Stewardship taught and handed on |
 | Mechanical, robotic love | Real affection for God and one another |
 
 ## 2. What this is
-
 
 Worship Night is a regular, weekly gathering whose whole point is the presence of God. We come to meet with the Lord. Everything else, the music, the prayer, the word, the leadership, exists to serve that one thing.
 
@@ -39,7 +39,6 @@ It is not an event. It is not a concert, a social night, or a place to find a sp
 Over time, this is meant to shape a culture: people who pray wholeheartedly for the things God has put on their hearts, who carry reverence out of the room, and whose lives actually change because they met with God and obeyed Him.
 
 ## 3. What we are building toward
-
 
 **People who meet with God.** Not a vague experience, but a real encounter that is grounded in Scripture and lines up with the word.
 
@@ -51,26 +50,46 @@ Over time, this is meant to shape a culture: people who pray wholeheartedly for 
 
 ## 4. Core values
 
-
 ### Reverence
+
 We come before a holy God. The room carries weight and honor. Reverence shapes how we enter, how we worship, how we speak, and how we leave.
 
 ### The word held high
+
 Scripture is central, not decorative. What happens in the room is measured against the word. Encounters with God are scripturally grounded, scripturally based, and in line with what God has already said. A short word from Scripture is a normal part of the night.
 
 ### A safe space
+
 People need to be able to come and meet with the Lord without fear. Safe means the room is stewarded, the leader is present and discerning, and nothing is allowed to run wild in a way that pulls people away from the Lord or harms them.
 
 ### Presence over production
+
 Excellence in music and logistics serves the night, but the goal is never a good set. The goal is God's presence and people meeting Him.
 
 ### Honor and obedience
+
 Great honor for the Lord and great obedience to Him. These are not separate from love; they are how love looks.
 
 ## 5. Leadership
 
+Every night has **one clear leader**. Not a committee, not a vibe. Someone is genuinely carrying the room, and they are stewarding it rather than just running a program.
 
-The room needs **a leader, or leaders, who steward the culture in it well**. The number is not the point. What matters is that leadership is clear, that someone is genuinely carrying responsibility for the room, and that they are stewarding it rather than just running a program.
+At the start, that will be the person carrying the vision, doing the stewarding themselves and learning it as they go.
+
+### It is meant to be passed on
+
+It is not meant to stay with one person. As others grow, the room gets handed to them on purpose, so they learn to steward it too.
+
+This is not a convenience or a succession plan. Raising up people who can carry this is part of what the nights are for. The same thing we want in the room, people who hear God and obey Him, is what we want in the people who lead it.
+
+### How someone grows into it
+
+1. **They meet with God here themselves.** Nobody stewards a room they have not been in.
+2. **They carry a piece.** The word, a stretch of prayer, the send-out at the end.
+3. **They lead with the one who trained them in the room.** Close enough to catch things, far enough to let them lead.
+4. **They lead, and they begin training the next person.**
+
+### Growing in two things at once
 
 Whoever is leading is growing in two things at once:
 
@@ -78,6 +97,7 @@ Whoever is leading is growing in two things at once:
 2. **Scriptural guardrails.** Knowing the word well enough that it acts as the rails the night runs on. Sensitivity without Scripture drifts; Scripture without sensitivity goes dry. We want both.
 
 ### Stewarding the room
+
 Stewarding the room well includes:
 
 - Setting the tone of reverence from the start.
@@ -87,10 +107,10 @@ Stewarding the room well includes:
 - Protecting the safe space so that people can keep meeting with God.
 
 ### A word from Scripture
+
 It is good to have a word during the night. Short, clear, from the Bible. It anchors the encounter in the word and gives people something to take and put into practice.
 
 ## 6. The shape of a night
-
 
 This is a starting frame, not a script. The leader follows the Lord.
 
@@ -114,7 +134,6 @@ This is a starting frame, not a script. The leader follows the Lord.
 
 ## 7. Why "hear and obey"
 
-
 The center of this culture is simple: hear the Lord, then obey Him.
 
 Maybe what someone senses is truly from God. Maybe it is a first impression that will get refined over time. Either way, the posture is the same: take it seriously, hold it up to Scripture, and act on what lines up. A sense that gets acted on in obedience, and tested along the way, will get sharper. A sense that gets dismissed as "weird" never gets the chance.
@@ -122,7 +141,6 @@ Maybe what someone senses is truly from God. Maybe it is a first impression that
 Obedience is the proof that the encounter was real. Not the feeling, not the moment, but what you do afterward.
 
 ## 8. The fruit we expect
-
 
 - People who know God's presence and know how to draw near.
 - People who pray wholeheartedly.
@@ -134,10 +152,9 @@ Obedience is the proof that the encounter was real. Not the feeling, not the mom
 
 ## 9. Things still being worked out
 
-
 This is the first iteration. It is meant to be refined as we go. Some things to keep working on:
 
 - What exactly "carrying reverence" looks like in the minutes after the night ends. Silence? A short quiet period? A guided send-out?
 - How to structure the after-time so that journaling and evangelism are real options and not afterthoughts.
-- How new leaders are trained in discernment and stewarding the room.
+- What the handoff looks like in practice: how long someone carries a piece before they lead, and how we know they are ready.
 - How to keep the night from drifting back into being just an event.
