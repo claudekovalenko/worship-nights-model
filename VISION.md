@@ -2,7 +2,7 @@
 
 *A weekly night centered on the presence of God, where people meet with the Lord, hear from Him, and go out and obey.*
 
-Ivan is leading and modeling these nights to start. It is meant to be handed on as others grow into it.
+Ivan is leading the vision through at first, until it takes root and can be handed on.
 
 ---
 
