@@ -1,34 +1,29 @@
-name: Deploy to GitHub Pages
+name: Publish to GitHub Pages
 
+# Pages serves this repo from the gh-pages branch, so publishing means
+# pushing the built site there. Runs whenever the page changes.
 on:
   push:
     branches:
       - claude/worship-night-vision-r67esk
+    paths:
+      - index.html
+      - .github/workflows/pages.yml
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
-  group: pages
+  group: publish-pages
   cancel-in-progress: false
 
 jobs:
-  deploy:
+  publish:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Check out the repository
         uses: actions/checkout@v4
-
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - name: Stage the site
         run: |
@@ -36,9 +31,14 @@ jobs:
           cp index.html _site/index.html
           touch _site/.nojekyll
 
-      - name: Upload the site
-        uses: actions/upload-pages-artifact@v3
-
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Push the site to gh-pages
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd _site
+          git init -q
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Publish ${GITHUB_SHA:0:7}"
+          git push -f "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:gh-pages
