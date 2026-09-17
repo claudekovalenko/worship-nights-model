@@ -10,7 +10,7 @@
 
 **2. The Word** — Scripture is held high. Everything in the room is measured by it.
 
-**3. Stewardship** — One clear leader stewarding the room, growing others into it over time.
+**3. Stewardship** — One clear leader stewarding the room, sensitive to the Spirit and grounded in Scripture.
 
 **4. Go and Do** — When it's over we don't forget. We store it, we obey it, and we go.
 
@@ -27,7 +27,6 @@
 | Anything goes in the name of freedom | Discernment, order, and scriptural guardrails |
 | Shut down anything unfamiliar | Test it. Keep what is of the Lord |
 | A room nobody is stewarding | One clear leader stewarding the room |
-| A room that depends on one person forever | Stewardship taught and handed on |
 | Mechanical, robotic love | Real affection for God and one another |
 
 ## 2. What this is
@@ -72,22 +71,9 @@ Great honor for the Lord and great obedience to Him. These are not separate from
 
 ## 5. Leadership
 
-Every night has **one clear leader**. Not a committee, not a vibe. Someone is genuinely carrying the room, and they are stewarding it rather than just running a program.
+Every night has **one clear leader**. Not a committee, not a vibe. Someone is carrying the room, and they are stewarding it rather than just running a program.
 
 At the start, that will be the person carrying the vision, doing the stewarding themselves and learning it as they go.
-
-### It is meant to be passed on
-
-It is not meant to stay with one person. As others grow, the room gets handed to them on purpose, so they learn to steward it too.
-
-This is not a convenience or a succession plan. Raising up people who can carry this is part of what the nights are for. The same thing we want in the room, people who hear God and obey Him, is what we want in the people who lead it.
-
-### How someone grows into it
-
-1. **They meet with God here themselves.** Nobody stewards a room they have not been in.
-2. **They carry a piece.** The word, a stretch of prayer, the send-out at the end.
-3. **They lead with the one who trained them in the room.** Close enough to catch things, far enough to let them lead.
-4. **They lead, and they begin training the next person.**
 
 ### Growing in two things at once
 
@@ -109,6 +95,12 @@ Stewarding the room well includes:
 ### A word from Scripture
 
 It is good to have a word during the night. Short, clear, from the Bible. It anchors the encounter in the word and gives people something to take and put into practice.
+
+### It doesn't stay with one person
+
+In time others come to carry it too, and that is better done quietly. Someone carries a piece before they carry a night. The word one week. A stretch of prayer. The send-out at the end. Then leading while the person who handed it to them is still in the room.
+
+Kept low-key on purpose. Titles and announcements tend to do more harm than good here, and someone who knows they are being lined up can start leading for the wrong reasons. Mostly it is paying attention to who is ready for a little more, and giving it to them.
 
 ## 6. The shape of a night
 
@@ -156,5 +148,5 @@ This is the first iteration. It is meant to be refined as we go. Some things to 
 
 - What exactly "carrying reverence" looks like in the minutes after the night ends. Silence? A short quiet period? A guided send-out?
 - How to structure the after-time so that journaling and evangelism are real options and not afterthoughts.
-- What the handoff looks like in practice: how long someone carries a piece before they lead, and how we know they are ready.
+- How the room gets handed on without making a program of it.
 - How to keep the night from drifting back into being just an event.
