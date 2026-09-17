@@ -4,7 +4,7 @@
 
 ---
 
-## The short version
+## What we steward
 
 **1. Reverence** — We meet with God, and the room knows who it is standing in front of.
 
@@ -16,7 +16,21 @@
 
 ---
 
-## 1. What this is
+## 1. The culture we want, and the culture we refuse
+
+| We refuse | We are building |
+|---|---|
+| Worship night as an event you attend | Worship night as a meeting with God |
+| Enjoy the Lord for a while, then life never changes | I met with God, I heard Him, I am going to obey |
+| "Oh weird, I had a sense," and nothing happens | Hear, test it against the word, then act |
+| Straight in, straight out, forget everything | Carry reverence out, store what was sown, do it |
+| Anything goes in the name of freedom | Discernment, order, and scriptural guardrails |
+| Shut down anything unfamiliar | Test it. Keep what is of the Lord |
+| A room nobody is stewarding | Leaders who steward the room and its culture |
+| Mechanical, robotic love | Real affection for God and one another |
+
+## 2. What this is
+
 
 Worship Night is a regular, weekly gathering whose whole point is the presence of God. We come to meet with the Lord. Everything else, the music, the prayer, the word, the leadership, exists to serve that one thing.
 
@@ -24,7 +38,8 @@ It is not an event. It is not a concert, a social night, or a place to find a sp
 
 Over time, this is meant to shape a culture: people who pray wholeheartedly for the things God has put on their hearts, who carry reverence out of the room, and whose lives actually change because they met with God and obeyed Him.
 
-## 2. What we are building toward
+## 3. What we are building toward
+
 
 **People who meet with God.** Not a vague experience, but a real encounter that is grounded in Scripture and lines up with the word.
 
@@ -34,7 +49,8 @@ Over time, this is meant to shape a culture: people who pray wholeheartedly for 
 
 **People who love.** Deep love for the Lord, and as a result, deep and real affection for one another. Not mechanical, not robotic, but genuine.
 
-## 3. Core values
+## 4. Core values
+
 
 ### Reverence
 We come before a holy God. The room carries weight and honor. Reverence shapes how we enter, how we worship, how we speak, and how we leave.
@@ -51,7 +67,8 @@ Excellence in music and logistics serves the night, but the goal is never a good
 ### Honor and obedience
 Great honor for the Lord and great obedience to Him. These are not separate from love; they are how love looks.
 
-## 4. Leadership
+## 5. Leadership
+
 
 The room needs **a leader, or leaders, who steward the culture in it well**. The number is not the point. What matters is that leadership is clear, that someone is genuinely carrying responsibility for the room, and that they are stewarding it rather than just running a program.
 
@@ -72,7 +89,8 @@ Stewarding the room well includes:
 ### A word from Scripture
 It is good to have a word during the night. Short, clear, from the Bible. It anchors the encounter in the word and gives people something to take and put into practice.
 
-## 5. The shape of a night
+## 6. The shape of a night
+
 
 This is a starting frame, not a script. The leader follows the Lord.
 
@@ -94,20 +112,8 @@ This is a starting frame, not a script. The leader follows the Lord.
 - **Obey right away.** If the Lord showed you something, scripturally grounded, go do it. Now, not later. Obedience while the encounter is fresh is how it takes root. "Be doers of the word, and not hearers only" (James 1:22).
 - **Go straight out.** A powerful option: worship night, then straight into evangelism. Share with a heart that has just been prepared in God's presence. If you need to hang back and journal first, do that, then go.
 
-## 6. The culture we want, and the culture we refuse
-
-| We refuse | We are building |
-|---|---|
-| Worship night as an event you attend | Worship night as a meeting with God |
-| Enjoy the Lord for a while, then life never changes | I met with God, I heard Him, I am going to obey |
-| "Oh weird, I had a sense," and nothing happens | Hear, test it against the word, then act |
-| Straight in, straight out, forget everything | Carry reverence out, store what was sown, do it |
-| Anything goes in the name of freedom | Discernment, order, and scriptural guardrails |
-| Shut down anything unfamiliar | Test it. Keep what is of the Lord |
-| A room nobody is stewarding | Leaders who steward the room and its culture |
-| Mechanical, robotic love | Real affection for God and one another |
-
 ## 7. Why "hear and obey"
+
 
 The center of this culture is simple: hear the Lord, then obey Him.
 
@@ -116,6 +122,7 @@ Maybe what someone senses is truly from God. Maybe it is a first impression that
 Obedience is the proof that the encounter was real. Not the feeling, not the moment, but what you do afterward.
 
 ## 8. The fruit we expect
+
 
 - People who know God's presence and know how to draw near.
 - People who pray wholeheartedly.
@@ -126,6 +133,7 @@ Obedience is the proof that the encounter was real. Not the feeling, not the mom
 - A steady stream of people going out to share Jesus with prepared hearts.
 
 ## 9. Things still being worked out
+
 
 This is the first iteration. It is meant to be refined as we go. Some things to keep working on:
 
