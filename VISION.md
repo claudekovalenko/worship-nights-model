@@ -20,7 +20,7 @@ Four things we keep, because they are what form Christ in people.
 
 **1. Reverence** — We meet with God, and the room knows who it is standing in front of.
 
-**2. The Word** — Scripture is held high. Everything in the room is measured by it.
+**2. The Word** — One passage, dwelt on the whole night. Everything in the room is measured by it.
 
 **3. Stewardship** — One clear leader stewarding the room, sensitive to the Spirit and grounded in Scripture.
 
@@ -36,6 +36,7 @@ Four things we keep, because they are what form Christ in people.
 | Meeting with God as the destination | Meeting with God as how we are changed |
 | Enjoy the Lord for a while, then life never changes | I met with God, I heard Him, I am going to obey |
 | "Oh weird, I had a sense," and nothing happens | Hear, test it against the word, then act |
+| Many passages, lightly | One passage, until it opens up |
 | Straight in, straight out, forget everything | Carry reverence out, store what was sown, do it |
 | Anything goes in the name of freedom | Discernment, order, and scriptural guardrails |
 | Shut down anything unfamiliar | Test it. Keep what is of the Lord |
@@ -76,7 +77,15 @@ We come before a holy God. The room carries weight and honor. Reverence shapes h
 
 ### The word held high
 
-Scripture is central, not decorative. What happens in the room is measured against the word. Encounters with God are scripturally grounded, scripturally based, and in line with what God has already said. A short word from Scripture is a normal part of the night.
+Scripture is central, not decorative. What happens in the room is measured against the word. Encounters with God are scripturally grounded, scripturally based, and in line with what God has already said.
+
+**A night runs on one passage.** A verse, or a few, read aloud slowly and then stayed with. We read it again. We ask what it says and what it means. We worship out of it, we pray out of it, and we keep coming back to it all evening.
+
+The aim is to get everything out of it. Covering ground is easy and leaves little behind. One passage, worked honestly for an evening, gets into a person and stays there. A night that moves through six passages sends everyone home with a blur. A night on one sends them home with something specific enough to write down and obey.
+
+This is what Scripture means by meditation: not emptying the mind but filling it. The word it uses means to mutter, to chew a thing over, to keep turning it until it gives way. "His delight is in the law of the Lord, and on His law he meditates day and night." (Psalm 1:2; Joshua 1:8)
+
+It is also how we behold Him. The goal is Christ formed in us, and that happens by beholding Him. We see Him in His word. Staying with one passage long enough to really see what is in it is not a study technique. It is how a person gets changed. (2 Corinthians 3:18)
 
 ### A safe space
 
@@ -113,9 +122,9 @@ Stewarding the room well includes:
 - Gently redirecting or stopping something that is not of the Lord, without shaming anyone.
 - Protecting the safe space so that people can keep meeting with God.
 
-### A word from Scripture
+### The passage
 
-It is good to have a word during the night. Short, clear, from the Bible. It anchors the encounter in the word and gives people something to take and put into practice.
+Whoever is leading settles the passage ahead of time and sits with it themselves first. In the room they read it aloud, slowly, more than once, and keep bringing the night back to it. It anchors the encounter in Scripture and gives people one thing specific enough to take and put into practice.
 
 ### It doesn't stay with one person
 
@@ -128,18 +137,25 @@ Kept low-key on purpose. Titles and announcements tend to do more harm than good
 This is a starting frame, not a script. The leader follows the Lord.
 
 **Before**
+
+- The passage is settled ahead of time, and whoever is leading sits with it themselves first.
 - Leader and team prepare their own hearts. Pray. Be in the word.
 - Set the room for reverence. Minimize distraction.
 
 **During**
+
+The night runs on one passage. It gets read early and returned to all evening. Nothing competes with it.
+
 - Enter with reverence. Set the tone early: we are here to meet with God.
+- Read the passage. Aloud, slowly, more than once.
 - Worship. Give room for the Lord to move. Don't rush.
-- Pray. Wholehearted prayer, for the things on people's hearts, and intercession where the Lord leads.
-- The word. A short scriptural anchor.
+- Back to the passage. What is in it that we walked past the first time?
+- Pray. Wholehearted prayer, shaped by what the passage is saying, and intercession where the Lord leads.
 - Space to hear. Time for people to listen to the Lord, respond, and settle what He is saying to them.
 - The leader discerns throughout and stewards the room.
 
 **After (this part matters as much as the rest)**
+
 - **Do not jump straight into conversation.** After a time of holy reverence, carry that reverence out of the room. You have just engaged with the living God. Don't immediately shake it off with chatter.
 - **Store what was sown.** Jesus said the seed sown on the path is snatched away by the birds before it can take root (Matthew 13:4, 19). An awesome worship night that goes straight in and straight out, where everyone forgets everything, is that path. We refuse that. Journal it. Write down what the Lord said. Treasure it (Luke 2:19).
 - **Obey right away.** If the Lord showed you something, scripturally grounded, go do it. Now, not later. Obedience while the encounter is fresh is how it takes root. "Be doers of the word, and not hearers only" (James 1:22).
@@ -171,6 +187,7 @@ This is the first iteration. It is meant to be refined as we go. Some things to 
 - What exactly "carrying reverence" looks like in the minutes after the night ends. Silence? A short quiet period? A guided send-out?
 - How to structure the after-time so that journaling and evangelism are real options and not afterthoughts.
 - How the room gets handed on without making a program of it.
+- How the passage for each night gets chosen, and how far ahead.
 - How to keep the night from drifting back into being just an event.
 
 ---
