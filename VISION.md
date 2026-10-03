@@ -6,7 +6,17 @@ Ivan is leading the vision through at first, until it takes root and can be hand
 
 ---
 
+## The goal
+
+**That Christ would be formed in us.**
+
+Everything here serves that one thing. We come into His presence to behold Him, and beholding Him, we are changed into His likeness, from one degree of glory to the next. Meeting with God is not the destination. Being made like Him is. (2 Corinthians 3:18; Galatians 4:19)
+
+---
+
 ## What we steward
+
+Four things we keep, because they are what form Christ in people.
 
 **1. Reverence** — We meet with God, and the room knows who it is standing in front of.
 
@@ -23,6 +33,7 @@ Ivan is leading the vision through at first, until it takes root and can be hand
 | We refuse | We are building |
 |---|---|
 | Worship night as an event you attend | Worship night as a meeting with God |
+| Meeting with God as the destination | Meeting with God as how we are changed |
 | Enjoy the Lord for a while, then life never changes | I met with God, I heard Him, I am going to obey |
 | "Oh weird, I had a sense," and nothing happens | Hear, test it against the word, then act |
 | Straight in, straight out, forget everything | Carry reverence out, store what was sown, do it |
@@ -39,7 +50,15 @@ It is not an event. It is not a concert, a social night, or a place to find a sp
 
 Over time, this is meant to shape a culture: people who pray wholeheartedly for the things God has put on their hearts, who carry reverence out of the room, and whose lives actually change because they met with God and obeyed Him.
 
+And the point of all of it is that Christ would be formed in us. Not a better experience, not a fuller room. People who look more like Jesus than they did a year ago.
+
 ## 3. What we are building toward
+
+Christ formed in us. Everything else here is downstream of that.
+
+**People who grow to look like Jesus.** This is the goal, not a byproduct. We behold Him and are changed into His likeness, from one degree of glory to the next. The nights exist to put people in front of Him often enough, and honestly enough, that it actually happens. (2 Corinthians 3:18)
+
+It is also the measure. If people are enjoying the nights and not becoming more like Christ, something is wrong, however good the room feels.
 
 **People who meet with God.** Not a vague experience, but a real encounter that is grounded in Scripture and lines up with the word.
 
@@ -136,6 +155,7 @@ Obedience is the proof that the encounter was real. Not the feeling, not the mom
 
 ## 8. The fruit we expect
 
+- **People who look more like Jesus than they did a year ago.** This is the one that matters. The rest are how it happens.
 - People who know God's presence and know how to draw near.
 - People who pray wholeheartedly.
 - People who know the word and measure everything by it.
@@ -152,3 +172,7 @@ This is the first iteration. It is meant to be refined as we go. Some things to 
 - How to structure the after-time so that journaling and evangelism are real options and not afterthoughts.
 - How the room gets handed on without making a program of it.
 - How to keep the night from drifting back into being just an event.
+
+---
+
+*We meet with God, with great reverence. The word holds it all together. One leader stewards the room. And when it's over, we don't forget. We store it, we obey it, and we go. All of it so that Christ would be formed in us.*
