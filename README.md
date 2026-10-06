@@ -5,6 +5,7 @@ How we run weekly worship nights centered on the presence of God.
 **Live page: https://claudekovalenko.github.io/worship-nights-model/**
 
 - **[VISION.md](VISION.md)** — the written vision: what we steward, the culture we are building, how a night goes, and what we are still working out.
+- **[NIGHTS.md](NIGHTS.md)** — what each night is built on: the passage, the songs, who is leading.
 - **[index.html](index.html)** — the source for the live page. It opens on a summary of the four things we steward and the refuse/building chart; tapping any of the four slides over a panel with what it means in the room.
 
 Editing `index.html` and pushing republishes the live page automatically.

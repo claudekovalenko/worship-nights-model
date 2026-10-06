@@ -173,6 +173,7 @@ header.hero .eyebrow{margin-bottom:1.1rem}
 .more button:hover,.more button:focus-visible{background:var(--emph-bg);outline:none}
 .more button:focus-visible{box-shadow:inset 0 0 0 2px var(--accent)}
 .more .t{font-weight:500}
+.more .when{display:block;font-size:.82rem;color:var(--muted);font-weight:400;margin-top:.08rem}
 .more .c{color:var(--accent);flex:0 0 auto;display:flex;align-items:center}
 .more .c svg{width:.85rem;height:.85rem}
 
@@ -315,6 +316,7 @@ header.hero .eyebrow{margin-bottom:1.1rem}
   <p class="hint">The fuller picture, if you want the detail behind the four.</p>
 </div>
 <div class="more">
+  <button data-open="first"><span class="t">The first night<span class="when">Thursday, October 8</span></span><span class="c"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 2l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
   <button data-open="what"><span class="t">What this is</span><span class="c"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 2l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
   <button data-open="toward"><span class="t">What we are building toward</span><span class="c"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 2l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
   <button data-open="shape"><span class="t">The shape of a night</span><span class="c"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 2l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
@@ -420,6 +422,25 @@ header.hero .eyebrow{margin-bottom:1.1rem}
       <div class="next"><button data-open="reverence">Back to: Reverence</button><button data-open="fruit">The fruit we expect</button></div>
     </div>
 
+    <div class="detail" id="d-first" hidden>
+      <h2 id="t-first">The first night</h2>
+      <p class="lede">Thursday, October 8, 2026.</p>
+      <h3>Songs</h3>
+      <ol>
+        <li>I Stand in Awe</li>
+        <li>Forever Reign</li>
+        <li>You Are My All in All</li>
+        <li>I Surrender All</li>
+        <li>There Is None Like You</li>
+      </ol>
+      <p class="open">The order can move as the night goes. Whoever is leading follows the Lord.</p>
+      <h3>The passage</h3>
+      <p>Not chosen yet. The night runs on one passage, settled ahead of time, with whoever is leading sitting with it themselves first.</p>
+      <h3>Leading</h3>
+      <p>Ivan.</p>
+      <div class="next"><button data-open="shape">The shape of a night</button><button data-open="word">On the passage</button></div>
+    </div>
+
     <div class="detail" id="d-what" hidden>
       <h2 id="t-what">What this is</h2>
       <p class="lede">A weekly gathering whose whole point is the presence of God.</p>
@@ -520,7 +541,7 @@ header.hero .eyebrow{margin-bottom:1.1rem}
   var lastFocus = null;
   var current = null;
 
-  var VALID = ['reverence','word','stewardship','go','what','toward','shape','fruit','open'];
+  var VALID = ['reverence','word','stewardship','go','first','what','toward','shape','fruit','open'];
 
   function show(key, push){
     if (VALID.indexOf(key) === -1) return;
