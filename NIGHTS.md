@@ -8,7 +8,7 @@ What each night is built on. The vision behind it is in [VISION.md](VISION.md).
 
 **Leading:** Ivan
 
-**Passage:** not chosen yet
+**Passage:** John 21 and Hebrews 12
 
 **Songs**
 
