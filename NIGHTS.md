@@ -17,5 +17,6 @@ What each night is built on. The vision behind it is in [VISION.md](VISION.md).
 3. You Are My All in All
 4. I Surrender All
 5. There Is None Like You
+6. Jesus We Love You
 
 The order can move as the night goes.
