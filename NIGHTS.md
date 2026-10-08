@@ -23,7 +23,7 @@ Alongside whatever the Lord has put on people's hearts to pray for.
 
 **Leading:** Ivan leading, Titus on guitar.
 
-Ivan is carrying it at the start and setting the culture and the vision, modeling what these nights are meant to be, so that whoever leads them later is maintaining that culture rather than deciding what it should be.
+Ivan is setting the culture and the vision at the start, so whoever leads later maintains it rather than deciding what it should be.
 
 **Songs** — the set is in E
 
