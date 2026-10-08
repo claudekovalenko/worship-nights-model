@@ -21,7 +21,9 @@ What each night is built on. The vision behind it is in [VISION.md](VISION.md).
 
 Alongside whatever the Lord has put on people's hearts to pray for.
 
-**Leading:** Ivan. Carrying it at the start and setting the culture and the vision, modeling what these nights are meant to be, so that whoever leads them later is maintaining that culture rather than deciding what it should be.
+**Leading:** Ivan leading, Titus on guitar.
+
+Ivan is carrying it at the start and setting the culture and the vision, modeling what these nights are meant to be, so that whoever leads them later is maintaining that culture rather than deciding what it should be.
 
 **Songs** — the set is in E
 
