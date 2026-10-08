@@ -6,6 +6,8 @@ What each night is built on. The vision behind it is in [VISION.md](VISION.md).
 
 ## Night 1 — Thursday, October 8, 2026
 
+**Ivan is leading this night.** He is carrying it at the start and setting the culture and the vision deliberately, modeling what these nights are meant to be, so that whoever leads them later is maintaining that culture rather than deciding what it should be.
+
 **This week's focus:** the fear of the Lord, and the Word of God
 
 - **Proverbs 1** — the fear of the Lord is the beginning of knowledge
@@ -37,5 +39,3 @@ Also on the list, no key marked:
 - There Is None Like You
 
 The order can move as the night goes.
-
-**Leading:** Ivan. Carrying it and setting the culture and the vision from the beginning, so that whoever leads it later is maintaining that culture rather than starting one.
