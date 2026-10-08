@@ -2,8 +2,6 @@
 
 *A weekly night centered on the presence of God, where people meet with the Lord, hear from Him, and go out and obey.*
 
-Ivan is leading the vision through at first, until it takes root and can be handed on.
-
 ---
 
 ## The goal
@@ -103,7 +101,7 @@ Great honor for the Lord and great obedience to Him. These are not separate from
 
 Every night has **one clear leader**. Not a committee, not a vibe. Someone is carrying the room, and they are stewarding it rather than just running a program.
 
-At the start, that is Ivan, stewarding the room and modeling what this looks like. It is not meant to stay there.
+At the start, that is Ivan, stewarding the room and setting the culture and the vision deliberately. It is not meant to stay there.
 
 ### Growing in two things at once
 
@@ -129,6 +127,8 @@ Whoever is leading settles the passage ahead of time and sits with it themselves
 ### It doesn't stay with one person
 
 In time others come to carry it too, and that is better done quietly. Someone carries a piece before they carry a night. The word one week. A stretch of prayer. The send-out at the end. Then leading while the person who handed it to them is still in the room.
+
+What gets handed on is not only the running of a night. It is the culture and the vision, set deliberately at the start, so that whoever carries it later is maintaining something rather than deciding what it should be.
 
 Kept low-key on purpose. Titles and announcements tend to do more harm than good here, and someone who knows they are being lined up can start leading for the wrong reasons. Mostly it is paying attention to who is ready for a little more, and giving it to them.
 
