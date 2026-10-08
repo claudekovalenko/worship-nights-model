@@ -6,8 +6,6 @@ What each night is built on. The vision behind it is in [VISION.md](VISION.md).
 
 ## Night 1 — Thursday, October 8, 2026
 
-**Leading:** Ivan. Carrying it at the start and setting the culture and the vision, modeling what these nights are meant to be, so that whoever leads them later is maintaining that culture rather than deciding what it should be.
-
 **This week's focus:** the fear of the Lord, and the Word of God
 
 - **Proverbs 1** — the fear of the Lord is the beginning of knowledge
@@ -22,6 +20,8 @@ What each night is built on. The vision behind it is in [VISION.md](VISION.md).
 - Family
 
 Alongside whatever the Lord has put on people's hearts to pray for.
+
+**Leading:** Ivan. Carrying it at the start and setting the culture and the vision, modeling what these nights are meant to be, so that whoever leads them later is maintaining that culture rather than deciding what it should be.
 
 **Songs** — the set is in E
 
