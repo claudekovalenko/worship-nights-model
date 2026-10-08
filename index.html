@@ -93,6 +93,28 @@ header.hero .eyebrow{margin-bottom:1.1rem}
 .sec-head h2{font-size:1.6rem}
 .sec-head .hint{font-size:.92rem;color:var(--muted)}
 
+/* Way in to the night */
+.night-cta{
+  display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;
+  appearance:none;-webkit-appearance:none;
+  margin-top:2.7rem;
+  background:var(--accent-soft);
+  border:1px solid var(--accent);
+  border-left-width:3px;
+  font:inherit;color:inherit;text-align:left;cursor:pointer;
+  padding:1.15rem 1.25rem;
+}
+.night-cta:focus-visible{outline:none;box-shadow:0 0 0 2px var(--accent)}
+.night-cta .lab{display:block;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:.28rem}
+.night-cta .ttl{display:block;font-family:"Fraunces",Georgia,serif;font-size:1.3rem;font-weight:600;line-height:1.15}
+.night-cta .sub2{display:block;font-size:.92rem;line-height:1.45;color:var(--muted);margin-top:.3rem}
+.night-cta .arw{color:var(--accent);flex:0 0 auto;display:flex}
+.night-cta .arw svg{width:1rem;height:1rem}
+@media (prefers-reduced-motion: no-preference){
+  .night-cta .arw{transition:transform .18s ease}
+  .night-cta:hover .arw,.night-cta:focus-visible .arw{transform:translateX(3px)}
+}
+
 /* Pillars */
 .pillars{
   margin-top:1.3rem;
@@ -260,6 +282,15 @@ header.hero .eyebrow{margin-bottom:1.1rem}
   </section>
 </header>
 
+<button class="night-cta" data-open="first">
+  <span>
+    <span class="lab">The first night</span>
+    <span class="ttl">Thursday, October 8</span>
+    <span class="sub2">The passages, the songs, and what we are praying for.</span>
+  </span>
+  <span class="arw"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 2l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+</button>
+
 <div class="sec-head">
   <h2>What we steward</h2>
   <p class="hint">Four things we keep, because they are what form Christ in people. Tap any one to see what it means in the room.</p>
@@ -314,7 +345,6 @@ header.hero .eyebrow{margin-bottom:1.1rem}
   <p class="hint">The fuller picture, if you want the detail behind the four.</p>
 </div>
 <div class="more">
-  <button data-open="first"><span class="t">The first night<span class="when">Thursday, October 8</span></span><span class="c"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 2l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
   <button data-open="what"><span class="t">What this is</span><span class="c"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 2l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
   <button data-open="toward"><span class="t">What we are building toward</span><span class="c"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 2l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
   <button data-open="shape"><span class="t">The shape of a night</span><span class="c"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 2l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
@@ -426,7 +456,7 @@ header.hero .eyebrow{margin-bottom:1.1rem}
       <p class="lede">Thursday, October 8, 2026.</p>
 
       <h3>Leading</h3>
-      <p><strong>Ivan is leading this night.</strong> He is carrying it at the start and setting the culture and the vision deliberately, modeling what these nights are meant to be, so that whoever leads them later is maintaining that culture rather than deciding what it should be.</p>
+      <p>Ivan. Carrying it at the start and setting the culture and the vision, modeling what these nights are meant to be, so that whoever leads them later is maintaining that culture rather than deciding what it should be.</p>
 
       <h3>This week's focus</h3>
       <p>The fear of the Lord, and the Word of God.</p>

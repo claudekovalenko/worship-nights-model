@@ -6,7 +6,7 @@ What each night is built on. The vision behind it is in [VISION.md](VISION.md).
 
 ## Night 1 — Thursday, October 8, 2026
 
-**Ivan is leading this night.** He is carrying it at the start and setting the culture and the vision deliberately, modeling what these nights are meant to be, so that whoever leads them later is maintaining that culture rather than deciding what it should be.
+**Leading:** Ivan. Carrying it at the start and setting the culture and the vision, modeling what these nights are meant to be, so that whoever leads them later is maintaining that culture rather than deciding what it should be.
 
 **This week's focus:** the fear of the Lord, and the Word of God
 
