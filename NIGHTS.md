@@ -21,15 +21,20 @@ What each night is built on. The vision behind it is in [VISION.md](VISION.md).
 
 Alongside whatever the Lord has put on people's hearts to pray for.
 
-**Songs**
+**Songs** — the set is in E
 
-1. I Stand in Awe
-2. Forever Reign
-3. You Are My All in All
-4. I Surrender All
-5. There Is None Like You
+1. You Are Holy (Isaiah 6)
+2. Stand in Awe
+3. Forever Reign
+4. You Are My All in All
+5. Doxology
 6. Jesus We Love You
-7. Jesus Be in the Center
+7. Jesus at the Center
+
+Also on the list, no key marked:
+
+- I Surrender All
+- There Is None Like You
 
 The order can move as the night goes.
 
