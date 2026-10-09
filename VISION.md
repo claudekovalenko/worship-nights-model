@@ -10,6 +10,8 @@
 
 Everything here serves that one thing. We come into His presence to behold Him, and beholding Him, we are changed into His likeness, from one degree of glory to the next. Meeting with God is not the destination. Being made like Him is. (2 Corinthians 3:18; Galatians 4:19)
 
+And the way we behold Him is by enjoying Him. We come to delight in Christ, not to perform and not to achieve. The conviction and the change come out of that enjoyment rather than instead of it.
+
 ---
 
 ## What we steward
@@ -176,7 +178,18 @@ The processing time is the piece that has landed hardest so far. Leave it long e
 - **Obey right away.** If the Lord showed you something, scripturally grounded, go do it. Now, not later. Obedience while the encounter is fresh is how it takes root. "Be doers of the word, and not hearers only" (James 1:22).
 - **Go straight out.** A powerful option: worship night, then straight into evangelism. Share with a heart that has just been prepared in God's presence. If you need to hang back and journal first, do that, then go.
 
-## 7. Why "hear and obey"
+## 7. Keeping the testimonies
+
+What God does in the room is worth remembering. Written down, it builds faith for the next night and shows the weeks adding up. So we gather what people share.
+
+But a testimony belongs to the person who lived it, not to the room and not to the record.
+
+- Ask before writing anything down with someone's name on it.
+- Never record what someone was reluctant to say even out loud in the room.
+- When in doubt, keep the fruit and drop the detail. "Someone repented of an idol" carries the testimony. The specifics belong to them and to the Lord.
+- Anything tender stays off anything public.
+
+## 8. Why "hear and obey"
 
 The center of this culture is simple: hear the Lord, then obey Him.
 
@@ -184,7 +197,7 @@ Maybe what someone senses is truly from God. Maybe it is a first impression that
 
 Obedience is the proof that the encounter was real. Not the feeling, not the moment, but what you do afterward.
 
-## 8. The fruit we expect
+## 9. The fruit we expect
 
 - **People who look more like Jesus than they did a year ago.** This is the one that matters. The rest are how it happens.
 - People who know God's presence and know how to draw near.
@@ -195,7 +208,7 @@ Obedience is the proof that the encounter was real. Not the feeling, not the mom
 - A community marked by reverence, honor, and real love.
 - A steady stream of people going out to share Jesus with prepared hearts.
 
-## 9. Things still being worked out
+## 10. Things still being worked out
 
 This is the first iteration. It is meant to be refined as we go. Some things to keep working on:
 

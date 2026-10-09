@@ -29,6 +29,8 @@ and prayer points to come.
 
 **What surfaced:** two idols in the room, control and the calendar, and the approval of people.
 
+**Fruit:** Someone arrived having already been talking through John 21 with a person on the way in. Someone named the time to reflect and meditate on the word as what encouraged them most. Idols surfaced and were brought to the Lord and repented of. Names and specifics stay with the people who lived them.
+
 **Bring:** a journal. We write down what the Lord says and carry it out with us.
 
 **This week's focus:** the fear of the Lord, and the Word of God
