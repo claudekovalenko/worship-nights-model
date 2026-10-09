@@ -84,6 +84,8 @@ The aim is to get everything out of it. Covering ground is easy and leaves littl
 
 This is what Scripture means by meditation: not emptying the mind but filling it. The word it uses means to mutter, to chew a thing over, to keep turning it until it gives way. "His delight is in the law of the Lord, and on His law he meditates day and night." (Psalm 1:2; Joshua 1:8)
 
+**It keeps going the next week.** Whatever the Lord opens up in the room does not get left behind when the night ends. The next week picks it up and digs further in. If something surfaced that nobody planned for, that is where we go, rather than starting cold on something unrelated. So the weeks build on each other, and what God is saying to this particular group gets followed instead of dropped.
+
 It is also how we behold Him. The goal is Christ formed in us, and that happens by beholding Him. We see Him in His word. Staying with one passage long enough to really see what is in it is not a study technique. It is how a person gets changed. (2 Corinthians 3:18)
 
 ### Room to be real, inside the word
@@ -147,7 +149,7 @@ This is a starting frame, not a script. The leader follows the Lord.
 
 **Before**
 
-- The passage is settled ahead of time, and whoever is leading sits with it themselves first.
+- The passage is settled ahead of time, usually following what the Lord opened up the week before, and whoever is leading sits with it themselves first.
 - People bring a journal, or something to write with.
 - Leader and team prepare their own hearts. Pray. Be in the word.
 - Set the room for reverence. Minimize distraction.
@@ -200,7 +202,7 @@ This is the first iteration. It is meant to be refined as we go. Some things to 
 - What exactly "carrying reverence" looks like in the minutes after the night ends. Silence? A short quiet period? A guided send-out?
 - How to structure the after-time so that journaling and evangelism are real options and not afterthoughts.
 - How the room gets handed on without making a program of it.
-- How the passage for each night gets chosen, and how far ahead.
+- How far ahead the passage gets settled, now that each week follows what the room surfaced the week before.
 - How to keep the night from drifting back into being just an event.
 
 ---
