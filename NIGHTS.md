@@ -31,8 +31,8 @@ Ivan is setting the culture and the vision at the start, so whoever leads later 
 2. I Stand in Awe (Jesus Image)
 3. Forever Reign
 4. You Are My All in All
-5. Jesus We Love You
-6. Jesus at the Center
+5. Jesus at the Center
+6. Jesus We Love You
 7. Doxology
 
 Also on the list, no key marked:
