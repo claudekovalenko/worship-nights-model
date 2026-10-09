@@ -157,12 +157,15 @@ This is a starting frame, not a script. The leader follows the Lord.
 The night runs on one passage. It gets read early and returned to all evening. Nothing competes with it.
 
 - Enter with reverence. Set the tone early: we are here to meet with God.
-- Read the passage. Aloud, slowly, more than once.
-- Worship. Give room for the Lord to move. Don't rush.
-- Back to the passage. What is in it that we walked past the first time?
+- **A short message on the passage, up front.** Read it aloud, slowly, and open it enough to prepare people's hearts before anything else. It can land in the middle instead if that is where the Lord leads.
+- **Time to journal, right then.** Before it slips, people write down what they heard in it.
+- Worship, with the word spoken along the way. Scripture read and spoken over people as the night moves, rather than saved for one slot.
+- **Processing time inside the worship.** Real room between songs to stay with what God is saying, instead of moving straight to the next one.
+- Encourage application out loud. Get real. Nothing performed.
 - Pray. Wholehearted prayer, shaped by what the passage is saying, and intercession where the Lord leads.
-- Space to hear. Time for people to listen to the Lord, respond, and settle what He is saying to them.
 - The leader discerns throughout and stewards the room.
+
+The processing time is the piece that has landed hardest so far. Leave it long enough to be uncomfortable before filling it.
 
 **After (this part matters as much as the rest)**
 

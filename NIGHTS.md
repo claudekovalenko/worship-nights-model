@@ -23,6 +23,8 @@ What each night is built on. The vision behind it is in [VISION.md](VISION.md).
 
 Alongside whatever the Lord has put on people's hearts to pray for.
 
+**What stood out:** the processing time during worship.
+
 **Leading:** Ivan leading, Titus on guitar.
 
 Ivan is setting the culture and the vision at the start, so whoever leads later maintains it rather than deciding what it should be.
