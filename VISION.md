@@ -143,6 +143,7 @@ This is a starting frame, not a script. The leader follows the Lord.
 **Before**
 
 - The passage is settled ahead of time, and whoever is leading sits with it themselves first.
+- People bring a journal, or something to write with.
 - Leader and team prepare their own hearts. Pray. Be in the word.
 - Set the room for reverence. Minimize distraction.
 

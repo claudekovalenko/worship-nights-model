@@ -6,6 +6,8 @@ What each night is built on. The vision behind it is in [VISION.md](VISION.md).
 
 ## Night 1 — Thursday, October 8, 2026
 
+**Bring:** a journal. We write down what the Lord says and carry it out with us.
+
 **This week's focus:** the fear of the Lord, and the Word of God
 
 - **Proverbs 1** — the fear of the Lord is the beginning of knowledge
