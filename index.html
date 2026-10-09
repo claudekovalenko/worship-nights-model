@@ -1,0 +1,726 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Worship Nights Vision</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root{
+  color-scheme:light dark;
+  --bg:#F5F6F8;
+  --surface:#FFFFFF;
+  --ink:#1B2233;
+  --muted:#5A6478;
+  --rule:#D7DBE3;
+  --rule-soft:#E4E7EC;
+  --accent:#A8781A;
+  --accent-soft:#F3EAD3;
+  --emph-bg:#EEF0F4;
+  --refuse:#8C3B3B;
+  --refuse-bg:#F6ECEC;
+  --build:#2F6B4F;
+  --build-bg:#E9F2EC;
+  --scrim:rgba(20,26,38,.45);
+  --shadow:0 18px 50px rgba(20,26,38,.22);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#131926;
+    --surface:#1B2333;
+    --ink:#E8EBF0;
+    --muted:#A3ACBC;
+    --rule:#2E3849;
+    --rule-soft:#262F3E;
+    --accent:#E0B04A;
+    --accent-soft:#2A2718;
+    --emph-bg:#202A3B;
+    --refuse:#E09A9A;
+    --refuse-bg:#2A1E20;
+    --build:#9BD1B3;
+    --build-bg:#1A2A22;
+    --scrim:rgba(5,8,14,.6);
+    --shadow:0 18px 50px rgba(0,0,0,.5);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#131926;
+  --surface:#1B2333;
+  --ink:#E8EBF0;
+  --muted:#A3ACBC;
+  --rule:#2E3849;
+  --rule-soft:#262F3E;
+  --accent:#E0B04A;
+  --accent-soft:#2A2718;
+  --emph-bg:#202A3B;
+  --refuse:#E09A9A;
+  --refuse-bg:#2A1E20;
+  --build:#9BD1B3;
+  --build-bg:#1A2A22;
+  --scrim:rgba(5,8,14,.6);
+  --shadow:0 18px 50px rgba(0,0,0,.5);
+}
+[hidden]{display:none!important}
+img{max-width:100%}
+body{
+  background:var(--bg);
+  color:var(--ink);
+  font-family:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size:17px;
+  line-height:1.6;
+  margin:0;
+  padding-inline:16px;
+  padding-block:0 84px;
+}
+:root.locked{overflow:hidden}
+.wrap{max-width:66ch;margin:0 auto}
+h1,h2,h3{font-family:"Fraunces","Iowan Old Style",Georgia,"Times New Roman",serif;font-weight:500;line-height:1.15;text-wrap:balance;margin:0}
+h1{font-size:clamp(2.3rem,7vw,3.4rem);letter-spacing:-.01em;font-variation-settings:"opsz" 144}
+h3{font-size:1.15rem;font-weight:600;margin-top:1.7rem;margin-bottom:.35rem}
+h4{font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;font-weight:600;color:var(--muted);margin:1.25rem 0 .3rem}
+p{margin:0 0 1rem}
+ul,ol{margin:0 0 1rem;padding-left:1.25rem}
+li{margin-bottom:.45rem}
+li::marker{color:var(--accent)}
+strong{font-weight:600}
+.eyebrow{font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.cite{font-size:.85rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)}
+
+/* ---------- Home ---------- */
+header.hero{padding-block:4rem 0}
+header.hero .eyebrow{margin-bottom:1.1rem}
+.thesis{font-family:"Fraunces",Georgia,serif;font-size:1.3rem;line-height:1.45;color:var(--muted);margin-top:1.3rem;font-style:italic}
+.meta{font-size:.88rem;color:var(--muted);margin-top:1.4rem;display:flex;flex-wrap:wrap;gap:.3rem 1.3rem}
+
+.goal{margin-top:2.9rem;padding-top:2rem;border-top:1px solid var(--rule)}
+.goal .eyebrow{margin-bottom:.9rem}
+.goal-line{font-family:"Fraunces",Georgia,serif;font-size:clamp(1.55rem,4.6vw,2.1rem);font-weight:600;line-height:1.14;letter-spacing:-.01em;margin:0 0 .85rem;text-wrap:balance;font-variation-settings:"opsz" 72}
+.goal-body{font-size:1rem;line-height:1.6;color:var(--muted);max-width:56ch;margin:0}
+.sec-head{margin-top:3.2rem;display:flex;flex-direction:column;gap:.35rem}
+.sec-head h2{font-size:1.6rem}
+.sec-head .hint{font-size:.92rem;color:var(--muted)}
+
+/* Songs, each linking out to a lyrics search */
+.songlist{margin:.9rem 0 0;padding:0;list-style:none;border-top:1px solid var(--rule)}
+.songlist li{border-bottom:1px solid var(--rule)}
+.song-link{display:flex;align-items:baseline;gap:.7rem;padding:.78rem .15rem;color:inherit;text-decoration:none;border-bottom:0}
+.song-link .num{flex:0 0 1.1rem;font-variant-numeric:tabular-nums;color:var(--accent);font-size:.85rem;font-weight:600}
+.song-link .nm{flex:1 1 auto;font-weight:500}
+.song-link .ext{flex:0 0 auto;color:var(--accent);align-self:center;display:flex;opacity:.75}
+.song-link .ext svg{width:.8rem;height:.8rem}
+.song-link:hover .nm,.song-link:focus-visible .nm{color:var(--accent);text-decoration:underline;text-underline-offset:2px}
+.song-link:hover .ext,.song-link:focus-visible .ext{opacity:1}
+.song-link:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+
+/* Way in to the night */
+.night-cta{
+  display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;
+  appearance:none;-webkit-appearance:none;
+  margin-top:2.7rem;
+  background:var(--accent-soft);
+  border:1px solid var(--accent);
+  border-left-width:3px;
+  font:inherit;color:inherit;text-align:left;cursor:pointer;
+  padding:1.15rem 1.25rem;
+}
+.night-cta:focus-visible{outline:none;box-shadow:0 0 0 2px var(--accent)}
+.night-cta .lab{display:block;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:.28rem}
+.night-cta .ttl{display:block;font-family:"Fraunces",Georgia,serif;font-size:1.3rem;font-weight:600;line-height:1.15}
+.night-cta .sub2{display:block;font-size:.92rem;line-height:1.45;color:var(--muted);margin-top:.3rem}
+.night-cta .arw{color:var(--accent);flex:0 0 auto;display:flex}
+.night-cta .arw svg{width:1rem;height:1rem}
+@media (prefers-reduced-motion: no-preference){
+  .night-cta .arw{transition:transform .18s ease}
+  .night-cta:hover .arw,.night-cta:focus-visible .arw{transform:translateX(3px)}
+}
+
+/* Pillars */
+.pillars{
+  margin-top:1.3rem;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:1px;
+  background:var(--rule);
+  border:1px solid var(--rule);
+}
+.pillar{
+  appearance:none;
+  -webkit-appearance:none;
+  background:var(--surface);
+  border:0;
+  margin:0;
+  font:inherit;
+  color:inherit;
+  text-align:left;
+  cursor:pointer;
+  padding:1.5rem 1.4rem 1.35rem;
+  display:flex;
+  flex-direction:column;
+  gap:.45rem;
+  position:relative;
+}
+.pillar:hover,.pillar:focus-visible{background:var(--emph-bg);outline:none}
+.pillar:focus-visible{box-shadow:inset 0 0 0 2px var(--accent)}
+.pillar .n{
+  font-family:"Fraunces",Georgia,serif;font-size:1rem;font-weight:600;
+  color:var(--accent);font-variant-numeric:tabular-nums;line-height:1;
+}
+.pillar .word{
+  font-family:"Fraunces",Georgia,serif;font-size:1.65rem;font-weight:600;
+  line-height:1.05;letter-spacing:-.01em;text-wrap:balance;font-variation-settings:"opsz" 72;
+}
+.pillar .sub{font-size:.93rem;line-height:1.5;color:var(--muted);margin:0}
+.pillar .go{
+  margin-top:.35rem;font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;
+  font-weight:600;color:var(--accent);display:flex;align-items:center;gap:.35rem;
+}
+.pillar .go svg{width:.8em;height:.8em}
+@media (max-width:620px){
+  .pillars{grid-template-columns:1fr}
+  .pillar{padding:1.2rem 1.2rem 1.1rem}
+  .pillar .word{font-size:1.4rem}
+}
+
+/* Refuse / Build — always side by side */
+.pairs{margin-top:1.3rem;display:flex;flex-direction:column;gap:1px;background:var(--rule);border:1px solid var(--rule)}
+.pairs-head{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule)}
+.pairs-head span{padding:.6rem .9rem;font-size:.71rem;letter-spacing:.1em;text-transform:uppercase;font-weight:600}
+.pairs-head .h-refuse{background:var(--refuse-bg);color:var(--refuse)}
+.pairs-head .h-build{background:var(--build-bg);color:var(--build)}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule)}
+.pair>div{background:var(--surface);padding:.8rem .9rem;font-size:.94rem;line-height:1.45;hyphens:auto}
+.pair .r{color:var(--muted)}
+.pair .b{font-weight:500}
+.lbl{display:none}
+@media (max-width:700px){
+  .pairs-head span{padding:.5rem .6rem;font-size:.63rem;letter-spacing:.07em}
+  .pair>div{padding:.6rem .6rem;font-size:.82rem;line-height:1.4}
+}
+@media (max-width:430px){
+  .pairs-head span{padding:.45rem .5rem;font-size:.58rem;letter-spacing:.05em}
+  .pair>div{padding:.5rem .5rem;font-size:.76rem;line-height:1.38}
+}
+
+/* More links */
+.more{margin-top:1.3rem;border:1px solid var(--rule);background:var(--surface);display:flex;flex-direction:column}
+.more button{
+  appearance:none;-webkit-appearance:none;background:none;border:0;
+  border-bottom:1px solid var(--rule-soft);
+  font:inherit;color:inherit;text-align:left;cursor:pointer;
+  padding:.95rem 1.1rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;
+}
+.more button:last-child{border-bottom:0}
+.more button:hover,.more button:focus-visible{background:var(--emph-bg);outline:none}
+.more button:focus-visible{box-shadow:inset 0 0 0 2px var(--accent)}
+.more .t{font-weight:500}
+.more .when{display:block;font-size:.82rem;color:var(--muted);font-weight:400;margin-top:.08rem}
+.more .c{color:var(--accent);flex:0 0 auto;display:flex;align-items:center}
+.more .c svg{width:.85rem;height:.85rem}
+
+.foot{margin-top:3rem;padding-top:1.6rem;border-top:1px solid var(--rule);font-size:.9rem;color:var(--muted)}
+
+/* ---------- Detail panel ---------- */
+.scrim{
+  position:fixed;inset:0;background:var(--scrim);
+  opacity:0;pointer-events:none;transition:opacity .28s ease;z-index:40;
+}
+.scrim.on{opacity:1;pointer-events:auto}
+.panel{
+  position:fixed;top:0;right:0;bottom:0;
+  width:min(600px,100%);
+  background:var(--bg);
+  border-left:1px solid var(--rule);
+  box-shadow:var(--shadow);
+  transform:translateX(100%);
+  transition:transform .32s cubic-bezier(.22,.61,.36,1);
+  z-index:50;
+  display:flex;flex-direction:column;
+  visibility:hidden;
+}
+.panel.on{transform:translateX(0);visibility:visible}
+.panel-top{
+  flex:0 0 auto;
+  display:flex;align-items:center;gap:.9rem;
+  padding:.85rem 1.3rem;
+  padding-top:calc(.85rem + env(safe-area-inset-top, 0px));
+  border-bottom:1px solid var(--rule);
+  background:var(--surface);
+}
+.back{
+  appearance:none;-webkit-appearance:none;background:none;border:1px solid var(--rule);
+  font:inherit;font-size:.88rem;font-weight:500;color:var(--ink);
+  cursor:pointer;padding:.42rem .8rem .42rem .62rem;
+  display:flex;align-items:center;gap:.4rem;
+}
+.back:hover,.back:focus-visible{background:var(--emph-bg);border-color:var(--accent);outline:none}
+.back:focus-visible{box-shadow:0 0 0 2px var(--accent)}
+.back svg{width:.8rem;height:.8rem}
+.panel-top .crumb{font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.panel-body{
+  flex:1 1 auto;overflow-y:auto;-webkit-overflow-scrolling:touch;
+  padding:2rem 1.5rem calc(3.5rem + env(safe-area-inset-bottom, 0px));
+}
+.panel-body>.detail{max-width:56ch;margin:0 auto}
+.detail .n{font-family:"Fraunces",Georgia,serif;font-size:1rem;font-weight:600;color:var(--accent);display:block;margin-bottom:.3rem}
+.detail h2{font-size:2.1rem;font-weight:600;letter-spacing:-.01em;font-variation-settings:"opsz" 72;margin-bottom:.7rem}
+.detail .lede{font-family:"Fraunces",Georgia,serif;font-size:1.18rem;line-height:1.45;color:var(--muted);font-style:italic;margin-bottom:1.6rem;padding-bottom:1.4rem;border-bottom:1px solid var(--rule)}
+.detail h3:first-of-type{margin-top:0}
+.emph{background:var(--emph-bg);border-left:3px solid var(--accent);padding:1.2rem 1.3rem;margin:1.4rem 0}
+.emph h3{margin-top:0}
+.emph p:last-child,.emph ul:last-child{margin-bottom:0}
+.phase{margin-top:1.4rem}
+.next{margin-top:2.4rem;padding-top:1.4rem;border-top:1px solid var(--rule);display:flex;flex-wrap:wrap;gap:.6rem}
+.next button{
+  appearance:none;-webkit-appearance:none;background:var(--surface);border:1px solid var(--rule);
+  font:inherit;font-size:.88rem;color:var(--ink);cursor:pointer;padding:.45rem .85rem;
+}
+.next button:hover,.next button:focus-visible{border-color:var(--accent);color:var(--accent);outline:none}
+.next button:focus-visible{box-shadow:0 0 0 2px var(--accent)}
+@media (max-width:620px){
+  .panel{width:100%;border-left:0}
+  .panel-body{padding:1.6rem 1.15rem calc(3rem + env(safe-area-inset-bottom, 0px))}
+  .detail h2{font-size:1.75rem}
+}
+@media (prefers-reduced-motion: reduce){
+  .panel{transition:none}
+  .scrim{transition:none}
+}
+</style>
+</head>
+<body>
+
+<div class="wrap" id="home">
+<header class="hero">
+  <div class="eyebrow">A working vision document</div>
+  <h1>Worship Nights</h1>
+  <p class="thesis">A weekly night centered on the presence of God, where people meet with the Lord, hear from Him, and go out and obey.</p>
+  <div class="meta"><span>Weekly</span><span>Presence-centered</span><span>First iteration, meant to be refined</span></div>
+
+  <section class="goal" aria-label="The goal">
+    <div class="eyebrow">The goal</div>
+    <p class="goal-line">That Christ would be formed in us.</p>
+    <p class="goal-body">Everything here serves that one thing. We come into His presence to behold Him, and beholding Him, we are changed into His likeness, from one degree of glory to the next. Meeting with God is not the destination. Being made like Him is. <span class="cite">(2 Corinthians 3:18; Galatians 4:19)</span></p>
+    <p class="goal-body" style="margin-top:.85rem">And the way we behold Him is by enjoying Him. We come to delight in Christ, not to perform and not to achieve. The conviction and the change come out of that enjoyment rather than instead of it.</p>
+  </section>
+</header>
+
+<button class="night-cta" data-open="nights">
+  <span>
+    <span class="lab">Next night</span>
+    <span class="ttl">Thursday, October 15</span>
+    <span class="sub2">Receiving God's love. The passages, the songs, and what we are praying for.</span>
+  </span>
+  <span class="arw"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 2l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+</button>
+
+<div class="sec-head">
+  <h2>What we steward</h2>
+  <p class="hint">Four things we keep, because they are what form Christ in people. Tap any one to see what it means in the room.</p>
+</div>
+<div class="pillars">
+  <button class="pillar" data-open="reverence">
+    <span class="n">01</span>
+    <span class="word">Reverence</span>
+    <p class="sub">We meet with God, and the room knows who it is standing in front of.</p>
+    <span class="go">What this means <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 2l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+  </button>
+  <button class="pillar" data-open="word">
+    <span class="n">02</span>
+    <span class="word">The Word</span>
+    <p class="sub">One passage, dwelt on the whole night. Everything in the room is measured by it.</p>
+    <span class="go">What this means <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 2l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+  </button>
+  <button class="pillar" data-open="stewardship">
+    <span class="n">03</span>
+    <span class="word">Stewardship</span>
+    <p class="sub">One clear leader stewarding the room, sensitive to the Spirit and grounded in Scripture.</p>
+    <span class="go">What this means <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 2l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+  </button>
+  <button class="pillar" data-open="go">
+    <span class="n">04</span>
+    <span class="word">Go and Do</span>
+    <p class="sub">When it's over we don't forget. We store it, we obey it, and we go. All of it so that Christ would be formed in us.</p>
+    <span class="go">What this means <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 2l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+  </button>
+</div>
+
+<div class="sec-head">
+  <h2>What we refuse, what we are building</h2>
+  <p class="hint">The clearest way to say what this is: hold it against what it is not.</p>
+</div>
+<div class="pairs">
+  <div class="pairs-head"><span class="h-refuse">We refuse</span><span class="h-build">We are building</span></div>
+  <div class="pair"><div class="r"><span class="lbl">We refuse</span>Worship night as an event you attend</div><div class="b"><span class="lbl">We are building</span>Worship night as a meeting with God</div></div>
+  <div class="pair"><div class="r"><span class="lbl">We refuse</span>Meeting with God as the destination</div><div class="b"><span class="lbl">We are building</span>Meeting with God as how we are changed</div></div>
+  <div class="pair"><div class="r"><span class="lbl">We refuse</span>Enjoy the Lord for a while, then life never changes</div><div class="b"><span class="lbl">We are building</span>I met with God, I heard Him, I am going to obey</div></div>
+  <div class="pair"><div class="r"><span class="lbl">We refuse</span>"Oh weird, I had a sense," and nothing happens</div><div class="b"><span class="lbl">We are building</span>Hear, test it against the word, then act</div></div>
+  <div class="pair"><div class="r"><span class="lbl">We refuse</span>Many passages, lightly</div><div class="b"><span class="lbl">We are building</span>One passage, until it opens up</div></div>
+  <div class="pair"><div class="r"><span class="lbl">We refuse</span>Straight in, straight out, forget everything</div><div class="b"><span class="lbl">We are building</span>Carry reverence out, store what was sown, do it</div></div>
+  <div class="pair"><div class="r"><span class="lbl">We refuse</span>Anything goes in the name of freedom</div><div class="b"><span class="lbl">We are building</span>Discernment, order, and scriptural guardrails</div></div>
+  <div class="pair"><div class="r"><span class="lbl">We refuse</span>Shut down anything unfamiliar</div><div class="b"><span class="lbl">We are building</span>Test it. Keep what is of the Lord</div></div>
+  <div class="pair"><div class="r"><span class="lbl">We refuse</span>A room nobody is stewarding</div><div class="b"><span class="lbl">We are building</span>One clear leader stewarding the room</div></div>
+  <div class="pair"><div class="r"><span class="lbl">We refuse</span>Holding it together for the room</div><div class="b"><span class="lbl">We are building</span>Being real before the Lord, inside the word</div></div>
+  <div class="pair"><div class="r"><span class="lbl">We refuse</span>Mechanical, robotic love</div><div class="b"><span class="lbl">We are building</span>Real affection for God and one another</div></div>
+</div>
+
+<div class="sec-head">
+  <h2>The rest of it</h2>
+  <p class="hint">The fuller picture, if you want the detail behind the four.</p>
+</div>
+<div class="more">
+  <button data-open="what"><span class="t">What this is</span><span class="c"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 2l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
+  <button data-open="toward"><span class="t">What we are building toward</span><span class="c"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 2l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
+  <button data-open="shape"><span class="t">The shape of a night</span><span class="c"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 2l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
+  <button data-open="fruit"><span class="t">The fruit we expect</span><span class="c"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 2l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
+  <button data-open="open"><span class="t">Still being worked out</span><span class="c"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M5 2l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
+</div>
+
+<p class="foot">We meet with God, with great reverence. The word holds it all together. One leader stewards the room. And when it's over, we don't forget. We store it, we obey it, and we go. All of it so that Christ would be formed in us.</p>
+</div>
+
+<div class="scrim" id="scrim"></div>
+
+<aside class="panel" id="panel" role="dialog" aria-modal="true" aria-labelledby="panel-title" aria-hidden="true">
+  <div class="panel-top">
+    <button class="back" id="back"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M11 2L5 8l6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg> Back</button>
+    <span class="crumb">Worship Nights</span>
+  </div>
+  <div class="panel-body" id="panel-body">
+
+    <div class="detail" id="d-reverence" hidden>
+      <span class="n">01</span>
+      <h2 id="t-reverence">Reverence</h2>
+      <p class="lede">We come before a holy God, and the room knows who it is standing in front of.</p>
+      <p>Reverence shapes how we enter, how we worship, how we speak, and how we leave. It is not stiffness. It is what love looks like when it knows who it is standing in front of.</p>
+      <h3>Presence over production</h3>
+      <p>Excellence in music and logistics serves the night, but the goal is never a good set. The goal is God's presence and people meeting Him.</p>
+      <h3>Attention on the Lord</h3>
+      <p>The whole room is turned toward Him. Attention belongs on the Lord, not on whoever is leading or playing or singing. Nobody here is performing, because nobody here is the point.</p>
+      <h3>Honor and obedience</h3>
+      <p>Great honor for the Lord and great obedience to Him. These are not separate from love. They are how love looks.</p>
+      <h3>Real love</h3>
+      <p>Deep love for the Lord, and as a result, deep and real affection for one another. Not mechanical, not robotic, but genuine.</p>
+      <h3>In the room</h3>
+      <p>We enter with reverence and set the tone early: we are here to meet with God. We worship, and we don't rush. The weight of the room is the point, not a byproduct.</p>
+      <div class="next"><button data-open="word">Next: The Word</button><button data-open="shape">The shape of a night</button></div>
+    </div>
+
+    <div class="detail" id="d-word" hidden>
+      <span class="n">02</span>
+      <h2 id="t-word">The Word</h2>
+      <p class="lede">One passage, dwelt on the whole night, until it opens up.</p>
+      <p>Scripture is central, not decorative. What happens here is held against the word. Encounters with God are scripturally grounded and in line with what God has already said. This is what keeps a night from becoming something private and strange. People are meeting with the God who has already spoken.</p>
+      <h3>One passage, not many</h3>
+      <p>A night runs on a single piece of Scripture. A verse, or a few. We read it aloud, slowly, and then we stay with it. We read it again. We ask what it says and what it means. We worship out of it, we pray out of it, and we keep coming back to it all evening.</p>
+      <p>The aim is to get everything out of it. Covering ground is easy and leaves little behind. One passage, worked honestly for an evening, gets into a person and stays there.</p>
+      <p>A night that moves through six passages sends everyone home with a blur. A night on one sends them home with something specific enough to write down and obey.</p>
+      <h3>What meditation actually means</h3>
+      <p>Not emptying the mind, but filling it. The word Scripture uses means to mutter, to chew a thing over, to keep turning it until it gives way. "His delight is in the law of the Lord, and on His law he meditates day and night." <span class="cite">(Psalm 1:2; Joshua 1:8)</span></p>
+      <h3>It keeps going the next week</h3>
+      <p>Whatever the Lord opens up in the room does not get left behind when the night ends. The next week picks it up and digs further in. If something surfaced that nobody planned for, that is where we go, rather than starting cold on something unrelated.</p>
+      <p>So the weeks build on each other. A passage can be worked over more than one night, and what God is saying to this particular group gets followed instead of dropped.</p>
+      <h3>This is how we behold Him</h3>
+      <p>The goal is Christ formed in us, and that happens by beholding Him. We see Him in His word. Staying with one passage long enough to really see what is in it is not a study technique. It is how a person gets changed. <span class="cite">(2 Corinthians 3:18)</span></p>
+      <h3>The word is also the test</h3>
+      <p>When someone senses something, we don't dismiss it and we don't swallow it whole. We hold it up against Scripture, and against the passage we have been in. What lines up gets acted on. What doesn't gets let go.</p>
+      <h3>Room to be real, inside the word</h3>
+      <p>People need to be able to come and meet with the Lord without fear. Safe means the room is stewarded and nothing is allowed to run wild in a way that pulls people away from the Lord or harms them.</p>
+      <p>It also means there is real room to be honest before Him. Tears, silence, kneeling, confession, gladness. Whatever is actually true in someone that night, rather than a posture held up for the room.</p>
+      <p>The word marks the edges of that freedom, not anyone's taste or comfort. Inside those boundaries there is a great deal of room. Outside them there is none. That is what keeps the space from going either stiff or chaotic.</p>
+      <div class="next"><button data-open="stewardship">Next: Stewardship</button><button data-open="go">Go and Do</button></div>
+    </div>
+
+    <div class="detail" id="d-stewardship" hidden>
+      <span class="n">03</span>
+      <h2 id="t-stewardship">Stewardship</h2>
+      <p class="lede">One clear leader for the room, genuinely carrying it.</p>
+      <p>Every night, one person is responsible for the room. Not a committee, not a vibe. Someone is carrying it, and they are stewarding it rather than just running a program.</p>
+      <p>At the start, that is Ivan, stewarding the room and setting the culture and the vision deliberately. It is not meant to stay there.</p>
+      <h3>Growing in two things at once</h3>
+      <ol>
+        <li><strong>Sensitivity to the promptings of the Lord.</strong> Learning to notice what the Spirit is doing, to follow it, and to shift when He shifts.</li>
+        <li><strong>Scriptural guardrails.</strong> Knowing the word well enough that it acts as the rails the night runs on. Sensitivity without Scripture drifts. Scripture without sensitivity goes dry. We want both.</li>
+      </ol>
+      <h3>Stewarding the room</h3>
+      <ul>
+        <li>Setting the tone of reverence from the start.</li>
+        <li>Keeping the night centered on the Lord, not on any person or moment.</li>
+        <li>Gently redirecting or stopping something that is not of the Lord, without shaming anyone.</li>
+        <li>Protecting the safe space so that people can keep meeting with God.</li>
+      </ul>
+      <div class="emph">
+        <h3>Discernment is the hardest part</h3>
+        <p>People express things in all kinds of ways, and some of it can get strange or out of hand. The job is not to shut everything down, and it is not to let everything run. It is to discern.</p>
+        <p>Test it against Scripture. Is it drawing people to Jesus? Is it in order? Is it producing fruit? What is of the Lord stays. What isn't gets gently redirected. <span class="cite">(1 John 4:1; 1 Corinthians 14:26&#8211;33, 40)</span></p>
+      </div>
+      <h3>It doesn't stay with one person</h3>
+      <p>In time others come to carry it too, and that is better done quietly. Someone carries a piece before they carry a night. The word one week. A stretch of prayer. The send-out at the end. Then leading while the person who handed it to them is still in the room.</p>
+      <p>What gets handed on is not only the running of a night. It is the culture and the vision, set deliberately at the start, so that whoever carries it later is maintaining something rather than deciding what it should be.</p>
+      <p>Kept low-key on purpose. Titles and announcements tend to do more harm than good here, and someone who knows they are being lined up can start leading for the wrong reasons. Mostly it is paying attention to who is ready for a little more, and giving it to them.</p>
+      <div class="next"><button data-open="go">Next: Go and Do</button><button data-open="shape">The shape of a night</button></div>
+    </div>
+
+    <div class="detail" id="d-go" hidden>
+      <span class="n">04</span>
+      <h2 id="t-go">Go and Do</h2>
+      <p class="lede">When it's over we don't forget. We store it, we obey it, and we go. All of it so that Christ would be formed in us.</p>
+      <p>This part matters as much as everything before it. A worship night should not end with "that was amazing" and nothing else. It should end with "I heard, and now I am going to go do that."</p>
+      <h3>Don't jump straight into conversation</h3>
+      <p>After a time of holy reverence, carry that reverence out of the room. You have just engaged with the living God. Don't immediately shake it off with chatter.</p>
+      <h3>Store what was sown</h3>
+      <p>Jesus said the seed sown on the path is snatched away by the birds before it can take root <span class="cite">(Matthew 13:4, 19)</span>. An awesome worship night that goes straight in and straight out, where everyone forgets everything, is that path. We refuse that. Journal it. Write down what the Lord said. Treasure it <span class="cite">(Luke 2:19)</span>.</p>
+      <h3>Obey right away</h3>
+      <p>If the Lord showed you something, scripturally grounded, go do it. Now, not later. Obedience while the encounter is fresh is how it takes root. "Be doers of the word, and not hearers only" <span class="cite">(James 1:22)</span>.</p>
+      <h3>Go straight out</h3>
+      <p>A powerful option: worship night, then straight into evangelism. Share with a heart that has just been prepared in God's presence. If you need to hang back and journal first, do that, then go.</p>
+      <h3>We keep the testimonies</h3>
+      <p>What God does in the room is worth remembering. Written down, it builds faith for the next night and shows the weeks adding up. So we gather what people share.</p>
+      <p>But a testimony belongs to the person who lived it, not to the room and not to the record.</p>
+      <ul>
+        <li>Ask before writing anything down with someone's name on it.</li>
+        <li>Never record what someone was reluctant to say even out loud in the room.</li>
+        <li>When in doubt, keep the fruit and drop the detail. "Someone repented of an idol" carries the testimony. The specifics belong to them and to the Lord.</li>
+        <li>Anything tender stays off anything public.</li>
+      </ul>
+      <div class="emph">
+        <h3>Why hear and obey</h3>
+        <p>Maybe what someone senses is truly from God. Maybe it is a first impression that will get refined over time. Either way, the posture is the same: take it seriously, hold it up to Scripture, and act on what lines up. A sense that gets acted on in obedience, and tested along the way, will get sharper. A sense that gets dismissed as "weird" never gets the chance.</p>
+        <p>Obedience is the proof that the encounter was real. Not the feeling, not the moment, but what you do afterward.</p>
+      </div>
+      <div class="next"><button data-open="reverence">Back to: Reverence</button><button data-open="fruit">The fruit we expect</button></div>
+    </div>
+
+    <div class="detail" id="d-nights" hidden>
+      <h2 id="t-nights">The nights</h2>
+      <p class="lede">Thursdays. What each one is built on, and what the last one surfaced.</p>
+
+      <h3>Next &middot; Thursday, October 15</h3>
+      <p><strong>Receiving God's love.</strong></p>
+      <p class="open">Answering the approval of people, one of the two idols the room surfaced on the first night. Passage, songs and prayer points to come.</p>
+
+      <h3>Then &middot; Thursday, October 22</h3>
+      <p><strong>Letting God lead.</strong></p>
+      <p class="open">Answering control and the calendar, the other idol that surfaced. Passage, songs and prayer points to come.</p>
+
+      <div class="emph">
+        <h3>What the first night surfaced</h3>
+        <p>Two idols came up in the room: <strong>control and the calendar</strong>, and <strong>the approval of people</strong>. The next two weeks go straight at them, which is what it looks like to keep digging rather than start cold.</p>
+        <p>The processing time during the worship is the piece that stood out.</p>
+      </div>
+
+      <h3>The first night &middot; Thursday, October 8</h3>
+      <h4>Bring</h4>
+      <p>A journal. We write down what the Lord says and carry it out with us.</p>
+
+      <h4>Its focus</h4>
+      <p>The fear of the Lord, and the Word of God.</p>
+      <ul>
+        <li><strong>Proverbs 1.</strong> The fear of the Lord is the beginning of knowledge.</li>
+        <li><strong>Psalm 1.</strong> Delight in the law of the Lord, and meditating on it day and night.</li>
+      </ul>
+
+      <h4>The central message</h4>
+      <p><strong>John 21.</strong> Jesus asking Peter whether he loves Him, and sending him to feed the sheep.</p>
+
+      <h4>Side passage</h4>
+      <p><strong>Hebrews 12.</strong> Looking to Jesus, and worship offered with reverence and awe.</p>
+
+      <h4>Prayer</h4>
+      <ul>
+        <li>Family.</li>
+      </ul>
+      <p class="open">Alongside whatever the Lord has put on people's hearts to pray for.</p>
+
+      <h4>Leading</h4>
+      <p>Ivan leading, Titus on guitar.</p>
+      <p class="open">Ivan is setting the culture and the vision at the start, so whoever leads later maintains it rather than deciding what it should be.</p>
+
+      <h4>Songs</h4>
+      <p>Tap a song to look up the lyrics.</p>
+      <ul class="songlist">
+        <li><a class="song-link" href="https://www.google.com/search?q=You+Are+Holy+Jesus+Image+lyrics" target="_blank" rel="noopener noreferrer"><span class="num">1</span><span class="nm">You Are Holy <span class="cite">(Isaiah 6 &middot; Jesus Image)</span></span><span class="ext"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3h7v7M13 3L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></li>
+        <li><a class="song-link" href="https://www.google.com/search?q=I+Stand+in+Awe+Jesus+Image+lyrics" target="_blank" rel="noopener noreferrer"><span class="num">2</span><span class="nm">I Stand in Awe <span class="cite">(Jesus Image)</span></span><span class="ext"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3h7v7M13 3L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></li>
+        <li><a class="song-link" href="https://www.google.com/search?q=Forever+Reign+lyrics" target="_blank" rel="noopener noreferrer"><span class="num">3</span><span class="nm">Forever Reign</span><span class="ext"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3h7v7M13 3L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></li>
+        <li><a class="song-link" href="https://www.google.com/search?q=You+Are+My+All+in+All+lyrics" target="_blank" rel="noopener noreferrer"><span class="num">4</span><span class="nm">You Are My All in All</span><span class="ext"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3h7v7M13 3L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></li>
+        <li><a class="song-link" href="https://www.google.com/search?q=Jesus+at+the+Center+lyrics" target="_blank" rel="noopener noreferrer"><span class="num">5</span><span class="nm">Jesus at the Center</span><span class="ext"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3h7v7M13 3L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></li>
+        <li><a class="song-link" href="https://www.google.com/search?q=Jesus+We+Love+You+lyrics" target="_blank" rel="noopener noreferrer"><span class="num">6</span><span class="nm">Jesus We Love You</span><span class="ext"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3h7v7M13 3L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></li>
+        <li><a class="song-link" href="https://www.google.com/search?q=I+Surrender+All+hymn+lyrics" target="_blank" rel="noopener noreferrer"><span class="num">7</span><span class="nm">I Surrender All</span><span class="ext"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3h7v7M13 3L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></li>
+        <li><a class="song-link" href="https://www.google.com/search?q=Doxology+lyrics" target="_blank" rel="noopener noreferrer"><span class="num">8</span><span class="nm">Doxology</span><span class="ext"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3h7v7M13 3L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></li>
+      </ul>
+      <p>Also on the list:</p>
+      <ul class="songlist">
+        <li><a class="song-link" href="https://www.google.com/search?q=There+Is+None+Like+You+Lenny+LeBlanc+lyrics" target="_blank" rel="noopener noreferrer"><span class="nm">There Is None Like You <span class="cite">(Lenny LeBlanc)</span></span><span class="ext"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3h7v7M13 3L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></li>
+      </ul>
+      <p class="open">The order can move as the night goes.</p>
+
+      <div class="next"><button data-open="shape">The shape of a night</button><button data-open="word">On the passage</button><button data-open="stewardship">On stewardship</button></div>
+    </div>
+
+    <div class="detail" id="d-what" hidden>
+      <h2 id="t-what">What this is</h2>
+      <p class="lede">A weekly gathering whose whole point is the presence of God.</p>
+      <p>We come to meet with the Lord. Everything else, the music, the prayer, the word, the leadership, exists to serve that one thing.</p>
+      <p>It is not an event. It is not a concert, a social night, or a place to find a spouse. It is a set-apart time to draw near to God with reverence, hear from Him through His word and His Spirit, and then go and do what He says.</p>
+      <p>Over time, this is meant to shape a culture: people who pray wholeheartedly for the things God has put on their hearts, who carry reverence out of the room, and whose lives actually change because they met with God and obeyed Him.</p>
+      <p>And the point of all of it is that Christ would be formed in us. Not a better experience, not a fuller room. People who look more like Jesus than they did a year ago.</p>
+      <div class="next"><button data-open="toward">What we are building toward</button></div>
+    </div>
+
+    <div class="detail" id="d-toward" hidden>
+      <h2 id="t-toward">What we are building toward</h2>
+      <p class="lede">Christ formed in us. Everything else here is downstream of that.</p>
+      <h3>People who grow to look like Jesus</h3>
+      <p>This is the goal, not a byproduct. We behold Him and are changed into His likeness, from one degree of glory to the next. The nights exist to put people in front of Him often enough, and honestly enough, that it actually happens. <span class="cite">(2 Corinthians 3:18)</span></p>
+      <p>It is also the measure. If people are enjoying the nights and not becoming more like Christ, something is wrong, however good the room feels.</p>
+      <h3>People who meet with God</h3>
+      <p>Not a vague experience, but a real encounter that is grounded in Scripture and lines up with the word.</p>
+      <h3>People who pray with their whole heart</h3>
+      <p>For the targets on their hearts, for others, since intercession has a place, but first and foremost simply to be with the Lord.</p>
+      <h3>People who hear and obey</h3>
+      <p>A worship night should not end with "that was amazing" and nothing else. It should end with "I heard, and now I am going to go do that."</p>
+      <h3>People who love</h3>
+      <p>Deep love for the Lord, and as a result, deep and real affection for one another. Not mechanical, not robotic, but genuine.</p>
+      <div class="next"><button data-open="fruit">The fruit we expect</button></div>
+    </div>
+
+    <div class="detail" id="d-shape" hidden>
+      <h2 id="t-shape">The shape of a night</h2>
+      <p class="lede">A starting frame, not a script. The leader follows the Lord.</p>
+      <div class="phase">
+        <h3>Before</h3>
+        <ul>
+          <li>The passage is settled ahead of time, usually following what the Lord opened up the week before, and whoever is leading sits with it themselves first.</li>
+          <li>People bring a journal, or something to write with.</li>
+          <li>Leader and team prepare their own hearts. Pray. Be in the word.</li>
+          <li>Set the room for reverence. Minimize distraction.</li>
+        </ul>
+      </div>
+      <div class="phase">
+        <h3>During</h3>
+        <p>The night runs on one passage. It gets read early and returned to all evening. Nothing competes with it.</p>
+        <ul>
+          <li>Enter with reverence. Set the tone early: we are here to meet with God.</li>
+          <li><strong>A short message on the passage, up front.</strong> Read it aloud, slowly, and open it enough to prepare people's hearts before anything else. It can land in the middle instead if that is where the Lord leads.</li>
+          <li><strong>Time to journal, right then.</strong> Before it slips, people write down what they heard in it.</li>
+          <li>Worship, with the word spoken along the way. Scripture read and spoken over people as the night moves, rather than saved for one slot.</li>
+          <li><strong>Processing time inside the worship.</strong> Real room between songs to stay with what God is saying, instead of moving straight to the next one.</li>
+          <li>Encourage application out loud. Get real. Nothing performed.</li>
+          <li>Pray. Wholehearted prayer, shaped by what the passage is saying, and intercession where the Lord leads.</li>
+          <li>Leadership discerns throughout and stewards the room.</li>
+        </ul>
+        <p class="open">The processing time is the piece that has landed hardest so far. Leave it long enough to be uncomfortable before filling it.</p>
+      </div>
+      <div class="emph phase">
+        <h3>After</h3>
+        <p>This matters as much as the rest. Don't jump straight into conversation. Carry the reverence out. Store what was sown, journal it, and obey it right away. Go straight out into evangelism with a prepared heart.</p>
+      </div>
+      <div class="next"><button data-open="go">More on: Go and Do</button><button data-open="stewardship">Stewardship</button></div>
+    </div>
+
+    <div class="detail" id="d-fruit" hidden>
+      <h2 id="t-fruit">The fruit we expect</h2>
+      <p class="lede">What it looks like when this is working.</p>
+      <ul>
+        <li><strong>People who look more like Jesus than they did a year ago.</strong> This is the one that matters. The rest are how it happens.</li>
+        <li>People who know God's presence and know how to draw near.</li>
+        <li>People who pray wholeheartedly.</li>
+        <li>People who know the word and measure everything by it.</li>
+        <li>Leaders who are sensitive to the Spirit and grounded in Scripture.</li>
+        <li>People whose lives change, because they obey what they hear.</li>
+        <li>A community marked by reverence, honor, and real love.</li>
+        <li>A steady stream of people going out to share Jesus with prepared hearts.</li>
+      </ul>
+      <div class="next"><button data-open="open">Still being worked out</button></div>
+    </div>
+
+    <div class="detail" id="d-open" hidden>
+      <h2 id="t-open">Still being worked out</h2>
+      <p class="lede">This is the first iteration. It is meant to be refined as we go.</p>
+      <ul>
+        <li>What exactly "carrying reverence" looks like in the minutes after the night ends. Silence? A short quiet period? A guided send-out?</li>
+        <li>How to structure the after-time so that journaling and evangelism are real options and not afterthoughts.</li>
+        <li>How the room gets handed on without making a program of it.</li>
+  <li>How far ahead the passage gets settled, now that each week follows what the room surfaced the week before.</li>
+        <li>How to keep the night from drifting back into being just an event.</li>
+      </ul>
+      <div class="next"><button data-open="reverence">Back to the four</button></div>
+    </div>
+
+  </div>
+</aside>
+
+<script>
+(function(){
+  var panel = document.getElementById('panel');
+  var scrim = document.getElementById('scrim');
+  var body  = document.getElementById('panel-body');
+  var back  = document.getElementById('back');
+  var root  = document.documentElement;
+  var lastFocus = null;
+  var current = null;
+
+  var VALID = ['reverence','word','stewardship','go','nights','what','toward','shape','fruit','open'];
+
+  function show(key, push){
+    if (VALID.indexOf(key) === -1) return;
+    var all = body.querySelectorAll('.detail');
+    for (var i=0;i<all.length;i++){ all[i].hidden = true; }
+    var el = document.getElementById('d-' + key);
+    if (!el) return;
+    el.hidden = false;
+    panel.setAttribute('aria-labelledby', 't-' + key);
+    panel.setAttribute('aria-hidden','false');
+    panel.classList.add('on');
+    scrim.classList.add('on');
+    root.classList.add('locked');
+    body.scrollTop = 0;
+    current = key;
+    if (push !== false){
+      try { history.pushState({k:key}, '', '#' + key); } catch(e){}
+    }
+    back.focus();
+  }
+
+  function hide(push){
+    panel.classList.remove('on');
+    panel.setAttribute('aria-hidden','true');
+    scrim.classList.remove('on');
+    root.classList.remove('locked');
+    current = null;
+    if (push !== false){
+      try { history.pushState({k:null}, '', location.pathname + location.search); } catch(e){}
+    }
+    if (lastFocus && lastFocus.focus) { lastFocus.focus(); }
+  }
+
+  document.addEventListener('click', function(e){
+    var t = e.target.closest ? e.target.closest('[data-open]') : null;
+    if (t){
+      e.preventDefault();
+      if (!current) { lastFocus = t; }
+      show(t.getAttribute('data-open'));
+    }
+  });
+
+  back.addEventListener('click', function(){ hide(); });
+  scrim.addEventListener('click', function(){ hide(); });
+
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape' && current) { hide(); }
+  });
+
+  window.addEventListener('popstate', function(e){
+    var k = (e.state && e.state.k) || (location.hash || '').replace('#','');
+    if (k && VALID.indexOf(k) !== -1) { show(k, false); }
+    else { hide(false); }
+  });
+
+  var initial = (location.hash || '').replace('#','');
+  if (initial && VALID.indexOf(initial) !== -1){ show(initial, false); }
+})();
+
+</script>
+</body>
+</html>
