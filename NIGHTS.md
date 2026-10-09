@@ -2,9 +2,32 @@
 
 What each night is built on. The vision behind it is in [VISION.md](VISION.md).
 
+Each week picks up what the Lord opened up the week before, so these build on
+each other rather than starting cold.
+
+---
+
+## Night 3 — Thursday, October 22, 2026
+
+**Theme:** letting God lead
+
+Answering control and the calendar, one of the two idols the room surfaced on
+night one. Passage, songs and prayer points to come.
+
+---
+
+## Night 2 — Thursday, October 15, 2026
+
+**Theme:** receiving God's love
+
+Answering the approval of people, the other idol that surfaced. Passage, songs
+and prayer points to come.
+
 ---
 
 ## Night 1 — Thursday, October 8, 2026
+
+**What surfaced:** two idols in the room, control and the calendar, and the approval of people.
 
 **Bring:** a journal. We write down what the Lord says and carry it out with us.
 
