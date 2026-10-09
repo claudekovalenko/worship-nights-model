@@ -1,8 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Worship Nights Vision</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>
 :root{
+  color-scheme:light dark;
   --bg:#F5F6F8;
   --surface:#FFFFFF;
   --ink:#1B2233;
@@ -55,6 +61,8 @@
   --scrim:rgba(5,8,14,.6);
   --shadow:0 18px 50px rgba(0,0,0,.5);
 }
+[hidden]{display:none!important}
+img{max-width:100%}
 body{
   background:var(--bg);
   color:var(--ink);
@@ -92,6 +100,23 @@ header.hero .eyebrow{margin-bottom:1.1rem}
 .sec-head{margin-top:3.2rem;display:flex;flex-direction:column;gap:.35rem}
 .sec-head h2{font-size:1.6rem}
 .sec-head .hint{font-size:.92rem;color:var(--muted)}
+
+/* Songs with expandable lyrics */
+.songlist{margin:.9rem 0 0;padding:0;list-style:none;border-top:1px solid var(--rule)}
+.songlist li{border-bottom:1px solid var(--rule)}
+.song-head{width:100%;appearance:none;-webkit-appearance:none;background:none;border:0;font:inherit;color:inherit;text-align:left;cursor:pointer;padding:.78rem .15rem;display:flex;align-items:baseline;gap:.7rem}
+.song-head .num{flex:0 0 1.1rem;font-variant-numeric:tabular-nums;color:var(--accent);font-size:.85rem;font-weight:600}
+.song-head .nm{flex:1 1 auto;font-weight:500}
+.song-head .chev{flex:0 0 auto;color:var(--accent);display:flex;align-items:center;align-self:center}
+.song-head .chev svg{width:.72rem;height:.72rem}
+.song-head[aria-expanded="true"] .chev svg{transform:rotate(90deg)}
+.song-head:hover .nm,.song-head:focus-visible .nm{color:var(--accent)}
+.song-head:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.song-body{padding:.1rem 0 1.1rem 1.8rem}
+.song-lyrics{white-space:pre-line;font-size:.95rem;line-height:1.65;margin:0}
+.song-missing{font-size:.9rem;line-height:1.5;color:var(--muted);margin:0}
+@media (prefers-reduced-motion: no-preference){.song-head .chev svg{transition:transform .18s ease}}
+@media (max-width:430px){.song-body{padding-left:1.1rem}}
 
 /* Way in to the night */
 .night-cta{
@@ -267,6 +292,8 @@ header.hero .eyebrow{margin-bottom:1.1rem}
   .scrim{transition:none}
 }
 </style>
+</head>
+<body>
 
 <div class="wrap" id="home">
 <header class="hero">
@@ -479,20 +506,20 @@ header.hero .eyebrow{margin-bottom:1.1rem}
       <p class="open">Ivan is setting the culture and the vision at the start, so whoever leads later maintains it rather than deciding what it should be.</p>
 
       <h3>Songs</h3>
-      <p>The set is in E.</p>
-      <ol>
-        <li>You Are Holy <span class="cite">(Isaiah 6)</span></li>
-        <li>Stand in Awe</li>
-        <li>Forever Reign</li>
-        <li>You Are My All in All</li>
-        <li>Doxology</li>
-        <li>Jesus We Love You</li>
-        <li>Jesus at the Center</li>
-      </ol>
+      <p>The set is in E. Tap a song for the lyrics.</p>
+      <ul class="songlist">
+        <li data-song="You Are Holy"><span class="num">1</span><span class="nm">You Are Holy <span class="cite">(Isaiah 6)</span></span></li>
+        <li data-song="Stand in Awe"><span class="num">2</span><span class="nm">Stand in Awe</span></li>
+        <li data-song="Forever Reign"><span class="num">3</span><span class="nm">Forever Reign</span></li>
+        <li data-song="You Are My All in All"><span class="num">4</span><span class="nm">You Are My All in All</span></li>
+        <li data-song="Doxology"><span class="num">5</span><span class="nm">Doxology</span></li>
+        <li data-song="Jesus We Love You"><span class="num">6</span><span class="nm">Jesus We Love You</span></li>
+        <li data-song="Jesus at the Center"><span class="num">7</span><span class="nm">Jesus at the Center</span></li>
+      </ul>
       <p>Also on the list, no key marked:</p>
-      <ul>
-        <li>I Surrender All</li>
-        <li>There Is None Like You</li>
+      <ul class="songlist">
+        <li data-song="I Surrender All"><span class="nm">I Surrender All</span></li>
+        <li data-song="There Is None Like You"><span class="nm">There Is None Like You</span></li>
       </ul>
       <p class="open">The order can move as the night goes.</p>
 
@@ -589,6 +616,7 @@ header.hero .eyebrow{margin-bottom:1.1rem}
   </div>
 </aside>
 
+<script src="songs.js"></script>
 <script>
 (function(){
   var panel = document.getElementById('panel');
@@ -658,4 +686,58 @@ header.hero .eyebrow{margin-bottom:1.1rem}
   var initial = (location.hash || '').replace('#','');
   if (initial && VALID.indexOf(initial) !== -1){ show(initial, false); }
 })();
+
+// Turn each song row into an expandable lyrics panel.
+(function(){
+  var L = window.LYRICS || {};
+  var rows = document.querySelectorAll('.songlist li[data-song]');
+  for (var i = 0; i < rows.length; i++) { wire(rows[i], i); }
+
+  function wire(li, idx){
+    var name = li.getAttribute('data-song');
+    var label = li.innerHTML;
+    var id = 'lyrics-' + idx;
+
+    var head = document.createElement('button');
+    head.type = 'button';
+    head.className = 'song-head';
+    head.id = 'song-' + idx;
+    head.setAttribute('aria-expanded', 'false');
+    head.setAttribute('aria-controls', id);
+    head.innerHTML = label +
+      '<span class="chev"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true">' +
+      '<path d="M5 2l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>' +
+      '</svg></span>';
+
+    var body = document.createElement('div');
+    body.className = 'song-body';
+    body.id = id;
+    body.setAttribute('role', 'region');
+    body.setAttribute('aria-labelledby', head.id);
+    body.hidden = true;
+
+    var text = L[name];
+    var para = document.createElement('p');
+    if (text && String(text).trim()) {
+      para.className = 'song-lyrics';
+      para.textContent = String(text).trim();
+    } else {
+      para.className = 'song-missing';
+      para.textContent = 'Lyrics not added yet. Put them in songs.js, next to this page.';
+    }
+    body.appendChild(para);
+
+    li.innerHTML = '';
+    li.appendChild(head);
+    li.appendChild(body);
+
+    head.addEventListener('click', function(){
+      var open = head.getAttribute('aria-expanded') === 'true';
+      head.setAttribute('aria-expanded', open ? 'false' : 'true');
+      body.hidden = open;
+    });
+  }
+})();
 </script>
+</body>
+</html>
