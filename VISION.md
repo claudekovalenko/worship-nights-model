@@ -39,6 +39,7 @@ Four things we keep, because they are what form Christ in people.
 | Anything goes in the name of freedom | Discernment, order, and scriptural guardrails |
 | Shut down anything unfamiliar | Test it. Keep what is of the Lord |
 | A room nobody is stewarding | One clear leader stewarding the room |
+| Holding it together for the room | Being real before the Lord, inside the word |
 | Mechanical, robotic love | Real affection for God and one another |
 
 ## 2. What this is
@@ -85,9 +86,13 @@ This is what Scripture means by meditation: not emptying the mind but filling it
 
 It is also how we behold Him. The goal is Christ formed in us, and that happens by beholding Him. We see Him in His word. Staying with one passage long enough to really see what is in it is not a study technique. It is how a person gets changed. (2 Corinthians 3:18)
 
-### A safe space
+### Room to be real, inside the word
 
-People need to be able to come and meet with the Lord without fear. Safe means the room is stewarded, the leader is present and discerning, and nothing is allowed to run wild in a way that pulls people away from the Lord or harms them.
+People need to be able to come and meet with the Lord without fear. Safe means the room is stewarded, leadership is present and discerning, and nothing is allowed to run wild in a way that pulls people away from the Lord or harms them.
+
+It also means there is real room to be honest before Him. Tears, silence, kneeling, confession, gladness. Whatever is actually true in someone that night, rather than a posture held up for the room.
+
+The word marks the edges of that freedom, not anyone's taste or comfort. Inside those boundaries there is a great deal of room. Outside them there is none. That is what keeps the space from going either stiff or chaotic.
 
 ### Presence over production
 
