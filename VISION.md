@@ -91,7 +91,11 @@ People need to be able to come and meet with the Lord without fear. Safe means t
 
 ### Presence over production
 
-Excellence in music and logistics serves the night, but the goal is never a good set. The goal is God's presence and people meeting Him. Nobody here is performing. The room is not an audience and the front is not a stage.
+Excellence in music and logistics serves the night, but the goal is never a good set. The goal is God's presence and people meeting Him.
+
+### Attention on the Lord
+
+The whole room is turned toward Him. Attention belongs on the Lord, not on whoever is leading or playing or singing. Nobody here is performing, because nobody here is the point.
 
 ### Honor and obedience
 
