@@ -33,11 +33,11 @@ Ivan is setting the culture and the vision at the start, so whoever leads later 
 4. You Are My All in All
 5. Jesus at the Center
 6. Jesus We Love You
-7. Doxology
+7. I Surrender All
+8. Doxology
 
 Also on the list:
 
-- I Surrender All
 - There Is None Like You (Lenny LeBlanc)
 
 The order can move as the night goes.
