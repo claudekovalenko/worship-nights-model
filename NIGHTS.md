@@ -25,7 +25,7 @@ Alongside whatever the Lord has put on people's hearts to pray for.
 
 Ivan is setting the culture and the vision at the start, so whoever leads later maintains it rather than deciding what it should be.
 
-**Songs** — the set is in E
+**Songs**
 
 1. You Are Holy (Isaiah 6, Jesus Image)
 2. I Stand in Awe (Jesus Image)
@@ -35,7 +35,7 @@ Ivan is setting the culture and the vision at the start, so whoever leads later 
 6. Jesus We Love You
 7. Doxology
 
-Also on the list, no key marked:
+Also on the list:
 
 - I Surrender All
 - There Is None Like You (Lenny LeBlanc)
