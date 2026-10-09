@@ -28,7 +28,7 @@ Ivan is setting the culture and the vision at the start, so whoever leads later 
 **Songs** — the set is in E
 
 1. You Are Holy (Isaiah 6)
-2. Stand in Awe
+2. I Stand in Awe
 3. Forever Reign
 4. You Are My All in All
 5. Doxology
