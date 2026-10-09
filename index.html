@@ -101,22 +101,17 @@ header.hero .eyebrow{margin-bottom:1.1rem}
 .sec-head h2{font-size:1.6rem}
 .sec-head .hint{font-size:.92rem;color:var(--muted)}
 
-/* Songs with expandable lyrics */
+/* Songs, each linking out to a lyrics search */
 .songlist{margin:.9rem 0 0;padding:0;list-style:none;border-top:1px solid var(--rule)}
 .songlist li{border-bottom:1px solid var(--rule)}
-.song-head{width:100%;appearance:none;-webkit-appearance:none;background:none;border:0;font:inherit;color:inherit;text-align:left;cursor:pointer;padding:.78rem .15rem;display:flex;align-items:baseline;gap:.7rem}
-.song-head .num{flex:0 0 1.1rem;font-variant-numeric:tabular-nums;color:var(--accent);font-size:.85rem;font-weight:600}
-.song-head .nm{flex:1 1 auto;font-weight:500}
-.song-head .chev{flex:0 0 auto;color:var(--accent);display:flex;align-items:center;align-self:center}
-.song-head .chev svg{width:.72rem;height:.72rem}
-.song-head[aria-expanded="true"] .chev svg{transform:rotate(90deg)}
-.song-head:hover .nm,.song-head:focus-visible .nm{color:var(--accent)}
-.song-head:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
-.song-body{padding:.1rem 0 1.1rem 1.8rem}
-.song-lyrics{white-space:pre-line;font-size:.95rem;line-height:1.65;margin:0}
-.song-missing{font-size:.9rem;line-height:1.5;color:var(--muted);margin:0}
-@media (prefers-reduced-motion: no-preference){.song-head .chev svg{transition:transform .18s ease}}
-@media (max-width:430px){.song-body{padding-left:1.1rem}}
+.song-link{display:flex;align-items:baseline;gap:.7rem;padding:.78rem .15rem;color:inherit;text-decoration:none;border-bottom:0}
+.song-link .num{flex:0 0 1.1rem;font-variant-numeric:tabular-nums;color:var(--accent);font-size:.85rem;font-weight:600}
+.song-link .nm{flex:1 1 auto;font-weight:500}
+.song-link .ext{flex:0 0 auto;color:var(--accent);align-self:center;display:flex;opacity:.75}
+.song-link .ext svg{width:.8rem;height:.8rem}
+.song-link:hover .nm,.song-link:focus-visible .nm{color:var(--accent);text-decoration:underline;text-underline-offset:2px}
+.song-link:hover .ext,.song-link:focus-visible .ext{opacity:1}
+.song-link:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
 
 /* Way in to the night */
 .night-cta{
@@ -506,20 +501,20 @@ header.hero .eyebrow{margin-bottom:1.1rem}
       <p class="open">Ivan is setting the culture and the vision at the start, so whoever leads later maintains it rather than deciding what it should be.</p>
 
       <h3>Songs</h3>
-      <p>The set is in E. Tap a song for the lyrics.</p>
+      <p>The set is in E. Tap a song to look up the lyrics.</p>
       <ul class="songlist">
-        <li data-song="You Are Holy"><span class="num">1</span><span class="nm">You Are Holy <span class="cite">(Isaiah 6)</span></span></li>
-        <li data-song="Stand in Awe"><span class="num">2</span><span class="nm">Stand in Awe</span></li>
-        <li data-song="Forever Reign"><span class="num">3</span><span class="nm">Forever Reign</span></li>
-        <li data-song="You Are My All in All"><span class="num">4</span><span class="nm">You Are My All in All</span></li>
-        <li data-song="Doxology"><span class="num">5</span><span class="nm">Doxology</span></li>
-        <li data-song="Jesus We Love You"><span class="num">6</span><span class="nm">Jesus We Love You</span></li>
-        <li data-song="Jesus at the Center"><span class="num">7</span><span class="nm">Jesus at the Center</span></li>
+        <li><a class="song-link" href="https://www.google.com/search?q=You+Are+Holy+lyrics" target="_blank" rel="noopener noreferrer"><span class="num">1</span><span class="nm">You Are Holy <span class="cite">(Isaiah 6)</span></span><span class="ext"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3h7v7M13 3L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></li>
+        <li><a class="song-link" href="https://www.google.com/search?q=Stand+in+Awe+lyrics" target="_blank" rel="noopener noreferrer"><span class="num">2</span><span class="nm">Stand in Awe</span><span class="ext"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3h7v7M13 3L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></li>
+        <li><a class="song-link" href="https://www.google.com/search?q=Forever+Reign+lyrics" target="_blank" rel="noopener noreferrer"><span class="num">3</span><span class="nm">Forever Reign</span><span class="ext"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3h7v7M13 3L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></li>
+        <li><a class="song-link" href="https://www.google.com/search?q=You+Are+My+All+in+All+lyrics" target="_blank" rel="noopener noreferrer"><span class="num">4</span><span class="nm">You Are My All in All</span><span class="ext"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3h7v7M13 3L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></li>
+        <li><a class="song-link" href="https://www.google.com/search?q=Doxology+lyrics" target="_blank" rel="noopener noreferrer"><span class="num">5</span><span class="nm">Doxology</span><span class="ext"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3h7v7M13 3L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></li>
+        <li><a class="song-link" href="https://www.google.com/search?q=Jesus+We+Love+You+lyrics" target="_blank" rel="noopener noreferrer"><span class="num">6</span><span class="nm">Jesus We Love You</span><span class="ext"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3h7v7M13 3L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></li>
+        <li><a class="song-link" href="https://www.google.com/search?q=Jesus+at+the+Center+lyrics" target="_blank" rel="noopener noreferrer"><span class="num">7</span><span class="nm">Jesus at the Center</span><span class="ext"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3h7v7M13 3L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></li>
       </ul>
       <p>Also on the list, no key marked:</p>
       <ul class="songlist">
-        <li data-song="I Surrender All"><span class="nm">I Surrender All</span></li>
-        <li data-song="There Is None Like You"><span class="nm">There Is None Like You</span></li>
+        <li><a class="song-link" href="https://www.google.com/search?q=I+Surrender+All+lyrics" target="_blank" rel="noopener noreferrer"><span class="nm">I Surrender All</span><span class="ext"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3h7v7M13 3L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></li>
+        <li><a class="song-link" href="https://www.google.com/search?q=There+Is+None+Like+You+lyrics" target="_blank" rel="noopener noreferrer"><span class="nm">There Is None Like You</span><span class="ext"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3h7v7M13 3L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a></li>
       </ul>
       <p class="open">The order can move as the night goes.</p>
 
@@ -616,7 +611,6 @@ header.hero .eyebrow{margin-bottom:1.1rem}
   </div>
 </aside>
 
-<script src="songs.js"></script>
 <script>
 (function(){
   var panel = document.getElementById('panel');
@@ -687,57 +681,6 @@ header.hero .eyebrow{margin-bottom:1.1rem}
   if (initial && VALID.indexOf(initial) !== -1){ show(initial, false); }
 })();
 
-// Turn each song row into an expandable lyrics panel.
-(function(){
-  var L = window.LYRICS || {};
-  var rows = document.querySelectorAll('.songlist li[data-song]');
-  for (var i = 0; i < rows.length; i++) { wire(rows[i], i); }
-
-  function wire(li, idx){
-    var name = li.getAttribute('data-song');
-    var label = li.innerHTML;
-    var id = 'lyrics-' + idx;
-
-    var head = document.createElement('button');
-    head.type = 'button';
-    head.className = 'song-head';
-    head.id = 'song-' + idx;
-    head.setAttribute('aria-expanded', 'false');
-    head.setAttribute('aria-controls', id);
-    head.innerHTML = label +
-      '<span class="chev"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true">' +
-      '<path d="M5 2l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>' +
-      '</svg></span>';
-
-    var body = document.createElement('div');
-    body.className = 'song-body';
-    body.id = id;
-    body.setAttribute('role', 'region');
-    body.setAttribute('aria-labelledby', head.id);
-    body.hidden = true;
-
-    var text = L[name];
-    var para = document.createElement('p');
-    if (text && String(text).trim()) {
-      para.className = 'song-lyrics';
-      para.textContent = String(text).trim();
-    } else {
-      para.className = 'song-missing';
-      para.textContent = 'Lyrics not added yet. Put them in songs.js, next to this page.';
-    }
-    body.appendChild(para);
-
-    li.innerHTML = '';
-    li.appendChild(head);
-    li.appendChild(body);
-
-    head.addEventListener('click', function(){
-      var open = head.getAttribute('aria-expanded') === 'true';
-      head.setAttribute('aria-expanded', open ? 'false' : 'true');
-      body.hidden = open;
-    });
-  }
-})();
 </script>
 </body>
 </html>
